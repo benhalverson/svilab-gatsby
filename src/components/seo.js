@@ -1,24 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import {
+  StaticQuery,
+  graphql
+} from 'gatsby'
 
-function SEO({ description, lang, meta, keywords, title }) {
-  return (
-    <StaticQuery
-      query={detailsQuery}
-      render={data => {
+function SEO({
+  description,
+  lang,
+  meta,
+  keywords,
+  title
+}) {
+  return ( <
+    StaticQuery query = {
+      detailsQuery
+    }
+    render = {
+      data => {
         const metaDescription =
           description || data.site.siteMetadata.description
-        return (
-          <Helmet
-            htmlAttributes={{
+        return ( <
+          Helmet htmlAttributes = {
+            {
               lang,
-            }}
-            title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-            meta={[
-              {
+            }
+          }
+          title = {
+            title
+          }
+          titleTemplate = {
+            `%s | ${data.site.siteMetadata.title}`
+          }
+          meta = {
+            [{
                 name: `description`,
                 content: metaDescription,
               },
@@ -51,18 +67,20 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
             ]
-              .concat(
-                keywords.length > 0
-                  ? {
-                      name: `keywords`,
-                      content: keywords.join(`, `),
-                    }
-                  : []
-              )
-              .concat(meta)}
+            .concat(
+              keywords.length > 0 ?
+              {
+                name: `keywords`,
+                content: keywords.join(`, `),
+              } :
+              []
+            )
+            .concat(meta)
+          }
           />
         )
-      }}
+      }
+    }
     />
   )
 }
@@ -83,7 +101,7 @@ SEO.propTypes = {
 
 export default SEO
 
-const detailsQuery = graphql`
+const detailsQuery = graphql `
   query DefaultSEOQuery {
     site {
       siteMetadata {
