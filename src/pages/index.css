@@ -1,11 +1,23 @@
 .sorta-transparent {
-  opacity: .5;
+  opacity: .8;
 }
 
 .home {
   position: relative;
-  left: 35%;
-  top: 42%;
+  top: 160%;
   flex: 1 0 auto;
 }
+
+.jumbotron.video {
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0.01) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+h1 {
+  color: white;
+}
+h2 {
+  color: yellow;
+  font-size: 4rem;
+}
+
 
