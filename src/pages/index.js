@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Videobackground from './videobackground';
 import './index.css';
+import InnovationPrograms from '../components/innovationPrograms';
 
 const IndexPage = () => (
   <>
@@ -24,7 +25,7 @@ const IndexPage = () => (
       </div>
     </div>
     {/* <About/> */}
-   
+   <InnovationPrograms/>
   </Layout>
   </>
 )
