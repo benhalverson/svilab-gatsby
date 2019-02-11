@@ -30,11 +30,11 @@ const IndexPage = () => (
         <div className="col-md-3">
           <div
             class="card corporate-color"
-            style={{ width: '18rem;', color: '#ffffff' }}
+            style={{ width: '18rem;', color: 'yellow', paddingTop: '12px' }}
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5 class="card-title card-title-spacing">Corporates</h5>
-              <a href="#" class="btn btn-primary">
+              <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
@@ -62,7 +62,7 @@ const IndexPage = () => (
                 Startups
               </h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
-              <a href="#" class="btn btn-primary">
+              <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>
@@ -85,7 +85,7 @@ const IndexPage = () => (
                 Accelerators <br /> (Private & Govt.)
               </h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
-              <a href="#" class="btn btn-primary">
+              <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>
@@ -109,7 +109,7 @@ const IndexPage = () => (
                 Investors, Angels <br /> & Family Offices
               </h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
-              <a href="#" class="btn btn-primary">
+              <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>

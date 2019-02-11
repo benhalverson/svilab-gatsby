@@ -77,3 +77,8 @@ a.btn.btn-primary {
   color: #000;
   border-radius: 22px;
 }
+
+.yellow-button {
+  background-color: yellow;
+  border-color: yellow;
+}
