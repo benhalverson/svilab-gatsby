@@ -4,8 +4,8 @@
 
 .home {
   position: relative;
-  top: 160%;
-  flex: 1 0 auto;
+  /* top: 160%; */
+  /* flex: 1 0 auto; */
 }
 
 .jumbotron.video {
