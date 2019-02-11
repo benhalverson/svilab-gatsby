@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 
 import SEO from '../components/seo';
 import Videobackground from './videobackground';
+import InnovationPrograms from '../components/innovationPrograms';
 import './index.css';
 
 const IndexPage = () => (
@@ -28,7 +29,7 @@ const IndexPage = () => (
         <div className="col-md-3">
           <div class="card" style={{ width: '18rem;' }}>
             <div class="card-body">
-              <h5 class="card-title">Corporates</h5>
+              <h5 class="card-title card-title-spacing">Corporates</h5>
               <a href="#" class="btn btn-primary">
                 Learn More
               </a>
@@ -39,7 +40,7 @@ const IndexPage = () => (
         <div className="col-md-3">
           <div class="card" style={{ width: '18rem;' }}>
             <div class="card-body">
-              <h5 class="card-title">Startups</h5>
+              <h5 class="card-title card-title-spacing">Startups</h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
               <a href="#" class="btn btn-primary">
                 Learn More
@@ -73,7 +74,9 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col">{/* <p>Hello</p> */}</div>
+        <div className="col">
+          <InnovationPrograms />
+        </div>
       </div>
     </Layout>
   </Fragment>
