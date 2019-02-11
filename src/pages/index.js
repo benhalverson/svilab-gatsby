@@ -65,7 +65,9 @@ const IndexPage = () => (
         <div className="col-md-3">
           <div class="card" style={{ width: '18rem;' }}>
             <div class="card-body">
-              <h5 class="card-title">Investors Family Offices & Angels</h5>
+              <h5 class="card-title">
+                Investors, Angels, <br /> & Family Offices
+              </h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
               <a href="#" class="btn btn-primary">
                 Learn More

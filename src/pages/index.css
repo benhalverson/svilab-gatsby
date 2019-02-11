@@ -1,3 +1,24 @@
+.corporate-color {
+  /* blue */
+  /* color: #0055a1; */
+  background-color: #0055a1;
+}
+
+.startups-color {
+  /* orange */
+  color: #cc3d22;
+}
+
+.angels-color {
+  /* green */
+  color: #178271;
+}
+
+.accelerators-color {
+  /* red */
+  color: #7f022f;
+}
+
 .sorta-transparent {
   opacity: 0.8;
 }
