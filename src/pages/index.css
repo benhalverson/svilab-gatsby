@@ -4,8 +4,8 @@
 
 .home {
   position: relative;
-  /* top: 160%; */
-  /* flex: 1 0 auto; */
+  top: 100%;
+  flex: 1 0 auto;
 }
 
 .jumbotron.video {
@@ -22,4 +22,10 @@ h1 {
 h2 {
   color: yellow;
   font-size: 4rem;
+}
+
+.row.bottom-row {
+  display: flex;
+  position: relative;
+  top: 400px;
 }

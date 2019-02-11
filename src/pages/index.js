@@ -73,9 +73,7 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col">
-          <p>Hello</p>
-        </div>
+        <div className="col">{/* <p>Hello</p> */}</div>
       </div>
     </Layout>
   </Fragment>

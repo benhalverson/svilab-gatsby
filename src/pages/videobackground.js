@@ -5,7 +5,7 @@ class Videobackground extends Component {
   render() {
     return (
       <div>
-        <video className="background-video" loop autoPlay muted>
+        <video className="background-video" loop autoPlay muted playsInline>
           <source src={webvideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
