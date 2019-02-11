@@ -32,7 +32,7 @@ const IndexPage = () => (
             class="card corporate-color"
             style={{ width: '18rem;', color: '#ffffff' }}
           >
-            <div class="card-body ">
+            <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title card-title-spacing"
                 style={{ fontWeight: 'bold' }}
@@ -55,7 +55,7 @@ const IndexPage = () => (
               color: '#ffffff'
             }}
           >
-            <div class="card-body">
+            <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title card-title-spacing"
                 style={{ fontWeight: 'bold' }}
@@ -78,7 +78,7 @@ const IndexPage = () => (
               color: '#ffffff'
             }}
           >
-            <div class="card-body ">
+            <div class="card-body" style={{ textAlign: 'center' }}>
               <h5 class="card-title" style={{ fontWeight: 'bold' }}>
                 Accelerators <br /> (private & govt.)
               </h5>
@@ -99,7 +99,7 @@ const IndexPage = () => (
               fontWeight: 'bold'
             }}
           >
-            <div class="card-body ">
+            <div class="card-body" style={{ textAlign: 'center' }}>
               <h5 class="card-title" style={{ fontWeight: 'bold' }}>
                 Investors, Angels, <br /> & Family Offices
               </h5>
