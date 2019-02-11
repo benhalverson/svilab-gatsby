@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import './index.css';
+import StartupLogos from '../components/startupLogos';
 
 const IndexPage = () => (
   <Fragment>
@@ -76,6 +77,11 @@ const IndexPage = () => (
       <div className="row">
         <div className="col">
           <InnovationPrograms />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <StartupLogos />
         </div>
       </div>
     </Layout>
