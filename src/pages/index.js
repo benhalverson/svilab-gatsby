@@ -30,7 +30,7 @@ const IndexPage = () => (
         <div className="col-md-3">
           <div
             class="card corporate-color"
-            style={{ width: '18rem;', color: 'yellow', paddingTop: '12px' }}
+            style={{ width: '12rem;', color: 'yellow', paddingTop: '12px' }}
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5 class="card-title card-title-spacing">Corporates</h5>
@@ -45,7 +45,7 @@ const IndexPage = () => (
           <div
             class="card"
             style={{
-              width: '18rem;',
+              width: '12rem;',
               backgroundColor: '#cc3d22',
               color: '#ffffff'
             }}
@@ -72,7 +72,7 @@ const IndexPage = () => (
           <div
             class="card"
             style={{
-              width: '18rem;',
+              width: '12rem;',
               backgroundColor: '#7f022f',
               color: 'yellow'
             }}
@@ -95,7 +95,7 @@ const IndexPage = () => (
           <div
             class="card"
             style={{
-              width: '18rem;',
+              width: '12rem;',
               backgroundColor: '#178271',
               color: 'yellow',
               fontWeight: 'bold'
