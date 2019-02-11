@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
-      <div className="row">
+      <div className="row top-row">
         <div className="col">
           <div className="jumbotron video sorta-transparent home">
             <h1>

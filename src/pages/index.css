@@ -82,3 +82,8 @@ a.btn.btn-primary {
   background-color: yellow;
   border-color: yellow;
 }
+
+.top-row {
+  padding: 0;
+  margin: 0;
+}
