@@ -34,10 +34,13 @@ const IndexPage = () => (
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5 class="card-title card-title-spacing">Corporates</h5>
+              <div className="mask-data">
+                Learn how AI, blockchain, IoT & more may help your business.
+                Find tech, license, acquire or innovate.
+              </div>
               <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
-              {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
             </div>
           </div>
         </div>
@@ -61,7 +64,10 @@ const IndexPage = () => (
               >
                 Startups
               </h5>
-              {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
+              <div className="mask-data">
+                You’ve made something disruptive – now Get Funded, Go-to-Market
+                & Make B2B Sales
+              </div>
               <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
@@ -84,7 +90,10 @@ const IndexPage = () => (
               >
                 Accelerators <br /> (Private & Govt.)
               </h5>
-              {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
+              <div className="mask-data">
+                Get programs that focus on customer success & revenue. Learn B2B
+                Sales, Go-to-Market & How to Pitch to Investors.
+              </div>
               <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>
@@ -97,8 +106,7 @@ const IndexPage = () => (
             style={{
               width: '12rem;',
               backgroundColor: '#178271',
-              color: 'yellow',
-              fontWeight: 'bold'
+              color: 'yellow'
             }}
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
@@ -108,7 +116,10 @@ const IndexPage = () => (
               >
                 Investors, Angels <br /> & Family Offices
               </h5>
-              {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
+              <div className="mask-data">
+                Find a match, or, get sales help for your tech portfolio
+                investments.
+              </div>
               <a href="#" class="btn btn-primary yellow-button">
                 Learn More
               </a>

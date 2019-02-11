@@ -87,3 +87,8 @@ a.btn.btn-primary {
   padding: 0;
   margin: 0;
 }
+
+.mask-data {
+  color: #fff;
+  display: block;
+}
