@@ -33,12 +33,7 @@ const IndexPage = () => (
             style={{ width: '18rem;', color: '#ffffff' }}
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5
-                class="card-title card-title-spacing"
-                style={{ fontWeight: 'bold' }}
-              >
-                Corporates
-              </h5>
+              <h5 class="card-title card-title-spacing">Corporates</h5>
               <a href="#" class="btn btn-primary">
                 Learn More
               </a>
@@ -58,7 +53,11 @@ const IndexPage = () => (
             <div class="card-body" style={{ textAlign: 'center' }}>
               <h5
                 class="card-title card-title-spacing"
-                style={{ fontWeight: 'bold' }}
+                style={{
+                  fontWeight: 'bold',
+                  color: 'yellow',
+                  paddingTop: '12px'
+                }}
               >
                 Startups
               </h5>
@@ -75,12 +74,15 @@ const IndexPage = () => (
             style={{
               width: '18rem;',
               backgroundColor: '#7f022f',
-              color: '#ffffff'
+              color: 'yellow'
             }}
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5 class="card-title" style={{ fontWeight: 'bold' }}>
-                Accelerators <br /> (private & govt.)
+              <h5
+                class="card-title"
+                style={{ fontWeight: 'bold', color: 'yellow' }}
+              >
+                Accelerators <br /> (Private & Govt.)
               </h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
               <a href="#" class="btn btn-primary">
@@ -95,13 +97,16 @@ const IndexPage = () => (
             style={{
               width: '18rem;',
               backgroundColor: '#178271',
-              color: '#ffffff',
+              color: 'yellow',
               fontWeight: 'bold'
             }}
           >
             <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5 class="card-title" style={{ fontWeight: 'bold' }}>
-                Investors, Angels, <br /> & Family Offices
+              <h5
+                class="card-title"
+                style={{ fontWeight: 'bold', color: 'yellow' }}
+              >
+                Investors, Angels <br /> & Family Offices
               </h5>
               {/* <p class="card-text">Some quic    k example text to build on the card title and make up the bulk of the card's content.</p> */}
               <a href="#" class="btn btn-primary">
