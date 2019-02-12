@@ -16,7 +16,7 @@ const IndexPage = () => (
 
       <div className="row top-row">
         <div className="col">
-          <div className="jumbotron video sorta-transparent home">
+          <div className="jumbotron header video sorta-transparent home">
             <h1>
               <strong className="text-uppercase">
                 Strategize. Innovate. <br /> Go-to-market
@@ -28,12 +28,11 @@ const IndexPage = () => (
       </div>
       <div className="row bottom-row">
         <div className="col-md-3">
-          <div
-            class="card corporate-color"
-            style={{ width: '12rem;', color: 'yellow', paddingTop: '12px' }}
-          >
+          <div class="card corporate-color">
             <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5 class="card-title card-title-spacing">Corporates</h5>
+              <h5 class="card-title card-title--yellow card-title-spacing">
+                Corporates
+              </h5>
               <div className="mask-data">
                 Learn how AI, blockchain, IoT & more may help your business.
                 Find tech, license, acquire or innovate.
@@ -45,23 +44,9 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="col-md-3">
-          <div
-            class="card"
-            style={{
-              width: '12rem;',
-              backgroundColor: '#cc3d22',
-              color: '#ffffff'
-            }}
-          >
+          <div class="card startups-color">
             <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5
-                class="card-title card-title-spacing"
-                style={{
-                  fontWeight: 'bold',
-                  color: 'yellow',
-                  paddingTop: '12px'
-                }}
-              >
+              <h5 class="card-title  card-title--yellow card-title-spacing">
                 Startups
               </h5>
               <div className="mask-data">

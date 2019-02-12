@@ -5,11 +5,20 @@ https://color.adobe.com/Copia-di-PTI-2-color-theme-11879057/edit/?copy=true&base
   /* blue */
   /* color: #0055a1; */
   background-color: #0055a1;
+  width: '12rem;';
+  padding-top: 12px;
+}
+
+.card-title--yellow {
+  color: yellow;
+  font-weight: bold;
 }
 
 .startups-color {
   /* orange */
   background-color: #cc3d22;
+  width: '12rem;';
+  padding-top: 12px;
 }
 
 .angels-color {
@@ -91,4 +100,8 @@ a.btn.btn-primary {
 .mask-data {
   color: #fff;
   display: block;
+}
+
+.header {
+  padding-top: 1rem;
 }
