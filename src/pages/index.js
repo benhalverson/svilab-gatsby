@@ -12,7 +12,10 @@ const IndexPage = () => (
   <Fragment>
     <Videobackground />
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO
+        title="Home"
+        keywords={[`innovation`, `go-to-market strategy `, `investors`]}
+      />
 
       <div className="row top-row">
         <div className="col">
