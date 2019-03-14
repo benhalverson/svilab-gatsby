@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 // import { Link } from 'gatsby'
 import {
   //Slide,
   Zoom
 } from 'react-slideshow-image';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const images = [
   'https://via.placeholder.com/1920x1080.png?text=Golden+gate+image',
@@ -21,30 +21,23 @@ const zoomOutProperties = {
   indicators: false,
   scale: 0.8,
   arrows: false
-}
-const SecondPage = () => ( <
-    Layout >
-    <
-    SEO title = "Page two" / >
-    <
-    Zoom {
-      ...zoomOutProperties
-    } > {
-      images.map((each, index) => < img key = {
-          index
-        }
-        style = {
-          {
-            width: "100%"
-          }
-        }
-        src = {
-          each
-        }
-        />)
-      } <
-      /Zoom> < /
-      Layout >
-    )
+};
+const SecondPage = () => (
+  <Layout>
+    <SEO title="Page two" />
+    <Zoom {...zoomOutProperties}>
+      {' '}
+      {images.map((each, index) => (
+        <img
+          key={index}
+          style={{
+            width: '100%'
+          }}
+          src={each}
+        />
+      ))}{' '}
+    </Zoom>{' '}
+  </Layout>
+);
 
-    export default SecondPage
+export default SecondPage;
