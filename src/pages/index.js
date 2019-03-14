@@ -31,32 +31,32 @@ const IndexPage = () => (
       </div>
       <div className="row bottom-row">
         <div className="col-md-3">
-          <div class="card corporate-color">
-            <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5 class="card-title card-title--yellow card-title-spacing">
+          <div className="card corporate-color">
+            <div className="card-body" style={{ textAlign: 'center' }}>
+              <h5 className="card-title card-title--yellow card-title-spacing">
                 Corporates
               </h5>
               <div className="mask-data">
                 Learn how AI, blockchain, IoT & more may help your business.
                 Find tech, license, acquire or innovate.
               </div>
-              <a href="#" class="btn btn-primary yellow-button">
+              <a href="#" className="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>
           </div>
         </div>
         <div className="col-md-3">
-          <div class="card startups-color">
-            <div class="card-body" style={{ textAlign: 'center' }}>
-              <h5 class="card-title  card-title--yellow card-title-spacing">
+          <div className="card startups-color">
+            <div className="card-body" style={{ textAlign: 'center' }}>
+              <h5 className="card-title  card-title--yellow card-title-spacing">
                 Startups
               </h5>
               <div className="mask-data">
                 You’ve made something disruptive – now Get Funded, Go-to-Market
                 & Make B2B Sales
               </div>
-              <a href="#" class="btn btn-primary yellow-button">
+              <a href="#" className="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>
@@ -64,16 +64,16 @@ const IndexPage = () => (
         </div>
         <div className="col-md-3">
           <div
-            class="card"
+            className="card"
             style={{
-              width: '12rem;',
+              width: '12rem',
               backgroundColor: '#7f022f',
               color: 'yellow'
             }}
           >
-            <div class="card-body" style={{ textAlign: 'center' }}>
+            <div className="card-body" style={{ textAlign: 'center' }}>
               <h5
-                class="card-title"
+                className="card-title"
                 style={{ fontWeight: 'bold', color: 'yellow' }}
               >
                 Accelerators <br /> (Private & Govt.)
@@ -82,7 +82,7 @@ const IndexPage = () => (
                 Get programs that focus on customer success & revenue. Learn B2B
                 Sales, Go-to-Market & How to Pitch to Investors.
               </div>
-              <a href="#" class="btn btn-primary yellow-button">
+              <a href="#" className="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>
@@ -90,16 +90,16 @@ const IndexPage = () => (
         </div>
         <div className="col-md-3">
           <div
-            class="card"
+            className="card"
             style={{
-              width: '12rem;',
+              width: '12rem',
               backgroundColor: '#178271',
               color: 'yellow'
             }}
           >
-            <div class="card-body" style={{ textAlign: 'center' }}>
+            <div className="card-body" style={{ textAlign: 'center' }}>
               <h5
-                class="card-title"
+                className="card-title"
                 style={{ fontWeight: 'bold', color: 'yellow' }}
               >
                 Investors, Angels <br /> & Family Offices
@@ -108,7 +108,7 @@ const IndexPage = () => (
                 Find a match, or, get sales help for your tech portfolio
                 investments.
               </div>
-              <a href="#" class="btn btn-primary yellow-button">
+              <a href="#" className="btn btn-primary yellow-button">
                 Learn More
               </a>
             </div>

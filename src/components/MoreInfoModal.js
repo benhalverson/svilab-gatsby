@@ -7,9 +7,9 @@ import {
   Form,
   FormGroup,
   Label,
-  Input,
-  FormText
+  Input
 } from 'reactstrap';
+import Axios from 'axios';
 
 class MoreInfoModal extends Component {
   constructor(props) {
@@ -25,6 +25,33 @@ class MoreInfoModal extends Component {
     }));
   };
 
+  handleSubmit = e => {
+    e.preventDefault();
+    const firstName = document.getElementById('FirstName').value;
+    const lastName = document.getElementById('LastName').value;
+    const email = document.getElementById('Email').value;
+    Axios({
+      method: 'POST',
+      url: process.env.URL || 'http://localhost:3000/send',
+      data: {
+        firstName,
+        lastName,
+        email
+      }
+    })
+      .then(response => {
+        if (response.data.msg === 'success') {
+          console.log('message sent');
+          this.resetForm();
+        }
+      })
+      .catch(error => console.error(`Failed to send data ${error}`));
+  };
+
+  resetForm = () => {
+    document.getElementById('contact-form').reset();
+  };
+
   render() {
     return (
       <div>
@@ -38,7 +65,7 @@ class MoreInfoModal extends Component {
         >
           <ModalHeader toggle={this.toggle}>Corporate Innovation</ModalHeader>
           <ModalBody>
-            <Form>
+            <Form onSubmit={this.handleSubmit} id="contact-form">
               <FormGroup>
                 <Label for="FirstName">First Name</Label>
                 <Input
@@ -54,7 +81,7 @@ class MoreInfoModal extends Component {
                 <Input
                   type="text"
                   name="LastName"
-                  id="Last Name"
+                  id="LastName"
                   placeholder="Enter your last name"
                   required
                 />
