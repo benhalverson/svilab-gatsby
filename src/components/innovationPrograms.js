@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
 import './innovationPrograms.css';
+import React, { Component } from 'react';
 import HowToPitch from './HowToPitch';
 import Story from './Story';
 import GotoMarket from './GotoMarket';
 import HardwareProducts from './HardwareProducts';
 import ExecutiveCoaching from './ExecutiveCoaching';
+import MoreInfoModal from './MoreInfoModal';
 
 export default class InnovationPrograms extends Component {
   render() {
@@ -31,9 +32,7 @@ export default class InnovationPrograms extends Component {
           </ul>
         </div>
         <div>
-          <a className="btn btn-primary btn-lg" href="#" role="button">
-            Send more info
-          </a>
+          <MoreInfoModal>Send more info</MoreInfoModal>
         </div>
         <h1 className="display-5">Program for Govt. & Private Accelerators</h1>
         <div>
