@@ -9,6 +9,7 @@ import MoreInfoModal from './MoreInfoModal';
 
 export default class InnovationPrograms extends Component {
   render() {
+    const buttonLabelText = `Send more info`;
     return (
       <div className="jumbotron innovation">
         <h1 className="display-5">Corporate Innovation</h1>
@@ -32,7 +33,7 @@ export default class InnovationPrograms extends Component {
           </ul>
         </div>
         <div>
-          <MoreInfoModal>Send more info</MoreInfoModal>
+          <MoreInfoModal buttonLabel={buttonLabelText} />
         </div>
         <h1 className="display-5">Program for Govt. & Private Accelerators</h1>
         <div>

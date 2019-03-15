@@ -7,7 +7,8 @@ import {
   Form,
   FormGroup,
   Label,
-  Input
+  Input,
+  Col
 } from 'reactstrap';
 import Axios from 'axios';
 
@@ -32,7 +33,7 @@ class MoreInfoModal extends Component {
     const email = document.getElementById('Email').value;
     Axios({
       method: 'POST',
-      url: process.env.URL || 'http://localhost:3000/send',
+      url: process.env.URL || 'http://localhost:3000/info',
       data: {
         firstName,
         lastName,
@@ -40,6 +41,7 @@ class MoreInfoModal extends Component {
       }
     })
       .then(response => {
+        debugger;
         if (response.data.msg === 'success') {
           console.log('message sent');
           this.resetForm();
@@ -57,6 +59,7 @@ class MoreInfoModal extends Component {
       <div>
         <Button color="danger" onClick={this.toggle}>
           {this.props.buttonLabel}
+          {/* my button! */}
         </Button>
         <Modal
           isOpen={this.state.modal}
@@ -66,35 +69,47 @@ class MoreInfoModal extends Component {
           <ModalHeader toggle={this.toggle}>Corporate Innovation</ModalHeader>
           <ModalBody>
             <Form onSubmit={this.handleSubmit} id="contact-form">
-              <FormGroup>
-                <Label for="FirstName">First Name</Label>
-                <Input
-                  type="text"
-                  name="FirstName"
-                  id="FirstName"
-                  placeholder="Enter your first Name"
-                  required
-                />
+              <FormGroup row>
+                <Label for="FirstName" sm={2}>
+                  First Name
+                </Label>
+                <Col sm={10}>
+                  <Input
+                    type="text"
+                    name="FirstName"
+                    id="FirstName"
+                    placeholder="Enter your first Name"
+                    required
+                  />
+                </Col>
+              </FormGroup>
+              <FormGroup row>
+                <Col sm={10}>
+                  <Label for="LastName" sm={2}>
+                    Last Name
+                  </Label>
+                  <Input
+                    type="text"
+                    name="LastName"
+                    id="LastName"
+                    placeholder="Enter your last name"
+                    required
+                  />
+                </Col>
               </FormGroup>
               <FormGroup>
-                <Label for="LastName">Last Name</Label>
-                <Input
-                  type="text"
-                  name="LastName"
-                  id="LastName"
-                  placeholder="Enter your last name"
-                  required
-                />
-              </FormGroup>
-              <FormGroup>
-                <Label for="Email">Email</Label>
-                <Input
-                  type="email"
-                  name="email"
-                  id="Email"
-                  placeholder="Enter your email"
-                  required
-                />
+                <Col sm={10}>
+                  <Label for="Email" sm={2}>
+                    Email
+                  </Label>
+                  <Input
+                    type="email"
+                    name="email"
+                    id="Email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </Col>
               </FormGroup>
               <Button>Submit</Button>
             </Form>
