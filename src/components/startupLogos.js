@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Carousel, CarouselItem } from 'reactstrap';
+// import { Carousel, CarouselItem } from 'reactstrap';
+import { UncontrolledCarousel } from 'reactstrap';
 
 import SiliconValley from '../images/SiliconValley-temp.png';
 import Korea from '../images/Korea-temp.png';
@@ -9,70 +10,54 @@ import Austria from '../images/Austria-temp.png';
 import Turkey from '../images/Turkey-temp.png';
 
 class StartupLogos extends Component {
-  state = { activeIndex: 0 };
-  onExiting = () => {
-    this.animating = true;
-  };
-
-  onExited = () => {
-    this.animating = false;
-  };
-
-  next = () => {
-    if (this.animating) return;
-    const nextIndex =
-      this.state.activeIndex === items.length - 1
-        ? 0
-        : this.state.activeIndex + 1;
-    console.log('index', nextIndex);
-    this.setState({ activeIndex: nextIndex });
-  };
-
-  previous = () => {
-    if (this.animating) return;
-    const nextIndex =
-      this.state.activeIndex === 0
-        ? items.length - 1
-        : this.state.activeIndex - 1;
-    this.setState({ activeIndex: nextIndex });
-  };
-
-  goToIndex = newIndex => {
-    if (this.animating) return;
-    this.setState({ activeIndex: newIndex });
-  };
   render() {
     const items = [
       {
-        src: { SiliconValley }
+        src: SiliconValley,
+        altText: 'Slide 1',
+        caption: 'Slide 1',
+        header: 'Slide 1 Header'
       },
       {
-        src: { Korea }
+        src: Korea,
+        altText: 'Slide 2',
+        caption: 'Slide 2',
+        header: 'Slide 2 Header'
       },
       {
-        src: { China }
+        src: China,
+        altText: 'Slide 3',
+        caption: 'Slide 3',
+        header: 'Slide 3 Header'
       },
       {
-        src: { Australia }
+        src: Australia,
+        altText: 'Slide 3',
+        caption: 'Slide 3',
+        header: 'Slide 3 Header'
       },
       {
-        src: { Austria }
+        src: Austria,
+        altText: 'Slide 3',
+        caption: 'Slide 3',
+        header: 'Slide 3 Header'
       },
       {
-        src: { Turkey }
+        src: Turkey,
+        altText: 'Slide 3',
+        caption: 'Slide 3',
+        header: 'Slide 3 Header'
       }
     ];
-    const slides = items.map(item => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-        />
-      );
-    });
-
-    return <Carousel activeIndex={activeIndex}>{slides}</Carousel>;
+    debugger;
+    return (
+      <UncontrolledCarousel
+        items={items}
+        autoPlay={true}
+        indicators={false}
+        controls={false}
+      />
+    );
   }
 }
 
