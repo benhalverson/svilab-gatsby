@@ -59,7 +59,6 @@ class MoreInfoModal extends Component {
       <div>
         <Button color="danger" onClick={this.toggle}>
           {this.props.buttonLabel}
-          {/* my button! */}
         </Button>
         <Modal
           isOpen={this.state.modal}
