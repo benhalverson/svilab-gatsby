@@ -9,14 +9,7 @@ class StartupLogos extends Component {
     this.state = { moving: true };
   }
   render() {
-    return (
-      <div>
-        <marquee>
-          <img src={image1} />
-          <img src={image2} />
-        </marquee>
-      </div>
-    );
+    return <div>Slides go here</div>;
   }
 }
 
