@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import './index.css';
-// import StartupLogos from '../components/startupLogos';
+import StartupLogos from '../components/startupLogos';
 
 const IndexPage = () => (
   <Fragment>
@@ -122,9 +122,13 @@ const IndexPage = () => (
             <InnovationPrograms />
           </div>
         </div>
-        <div className="row">
-          <div className="col">{/* <StartupLogos /> */}</div>
-        </div>
+        <Row>
+          <Col>
+            <div className="moveToBottom">
+              <StartupLogos />
+            </div>
+          </Col>
+        </Row>
       </Layout>
     </Container>
   </Fragment>
