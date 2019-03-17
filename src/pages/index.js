@@ -122,11 +122,13 @@ const IndexPage = () => (
             <InnovationPrograms />
           </div>
         </div>
-        <div className="row">
-          <div className="col">
-            <StartupLogos />
-          </div>
-        </div>
+        <Row>
+          <Col>
+            <div className="moveToBottom">
+              <StartupLogos />
+            </div>
+          </Col>
+        </Row>
       </Layout>
     </Container>
   </Fragment>
