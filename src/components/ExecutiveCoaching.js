@@ -33,7 +33,11 @@ function ExecutiveCoaching() {
                 <li>Corporate etiquette and body language for leaders </li>
                 <li>Corporate governance and working with stakeholders</li>
               </ul>
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg"
+                href="/gotomarket"
+                role="button"
+              >
                 Send more info
               </a>
             </div>

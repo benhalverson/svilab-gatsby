@@ -72,7 +72,11 @@ function HardwareProducts() {
                 <li>Make customer video demos – show off!</li>
                 <li>Make a product data sheet. Freeze the product </li>
               </ul>
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg"
+                href="/gotomarket"
+                role="button"
+              >
                 Send more info
               </a>
             </div>

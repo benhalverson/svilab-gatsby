@@ -62,7 +62,11 @@ function Story() {
               <li>Engage the listener - why should they care?</li>
               <li>Have a point to the story - what is the outcome you want?</li>
             </ul>
-            <a className="btn btn-primary btn-lg" href="#" role="button">
+            <a
+              className="btn btn-primary btn-lg"
+              href="/gotomarket"
+              role="button"
+            >
               Send more info
             </a>
           </CardBody>
