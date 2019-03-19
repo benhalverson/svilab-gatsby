@@ -10,7 +10,7 @@ import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import './index.css';
 import StartupLogos from '../components/startupLogos';
-import Cards from '../components/Cards';
+// import Cards from '../components/Cards';
 
 const IndexPage = () => (
   <Fragment>
@@ -35,7 +35,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row bottom-row">
-          <Cards />
+          {/* <Cards /> */}
 
           {/* <div className="col-md-3">
             <div className="card corporate-color">
