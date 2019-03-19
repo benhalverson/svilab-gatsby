@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import FlipCard from 'react-flipcard';
 //TODO: refactor row and col to make responsive
 import Layout from '../components/layout';
 
@@ -8,6 +9,7 @@ import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import './index.css';
 import StartupLogos from '../components/startupLogos';
+import Cards from '../components/Cards';
 
 const IndexPage = () => (
   <Fragment>
@@ -32,7 +34,9 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row bottom-row">
-          <div className="col-md-3">
+          <Cards />
+
+          {/* <div className="col-md-3">
             <div className="card corporate-color">
               <div className="card-body" style={{ textAlign: 'center' }}>
                 <h5 className="card-title card-title--yellow card-title-spacing">
@@ -47,7 +51,7 @@ const IndexPage = () => (
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-3">
             <div className="card startups-color">
               <div className="card-body" style={{ textAlign: 'center' }}>

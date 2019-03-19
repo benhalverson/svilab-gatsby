@@ -1,7 +1,9 @@
-- Move Slides to bottom of page
+- ~~Move Slides to bottom of page~~
 
-- Create backend api for contact form
+- Functionality for card flips
+
+- Fix styling for modals
 
 - Add more modals for each Send more info button
 
-- Fix styling for modals
+- Create backend api for contact form

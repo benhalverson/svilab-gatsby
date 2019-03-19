@@ -13,40 +13,22 @@ class StartupLogos extends Component {
   render() {
     const items = [
       {
-        src: SiliconValley,
-        altText: 'Slide 1',
-        caption: 'Slide 1',
-        header: 'Slide 1 Header'
+        src: SiliconValley
       },
       {
-        src: Korea,
-        altText: 'Slide 2',
-        caption: 'Slide 2',
-        header: 'Slide 2 Header'
+        src: Korea
       },
       {
-        src: China,
-        altText: 'Slide 3',
-        caption: 'Slide 3',
-        header: 'Slide 3 Header'
+        src: China
       },
       {
-        src: Australia,
-        altText: 'Slide 3',
-        caption: 'Slide 3',
-        header: 'Slide 3 Header'
+        src: Australia
       },
       {
-        src: Austria,
-        altText: 'Slide 3',
-        caption: 'Slide 3',
-        header: 'Slide 3 Header'
+        src: Austria
       },
       {
-        src: Turkey,
-        altText: 'Slide 3',
-        caption: 'Slide 3',
-        header: 'Slide 3 Header'
+        src: Turkey
       }
     ];
     return (
