@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import FlipCard from 'react-flipcard';
+//TODO Finish work on making the cards flip
+// import FlipCard from 'react-flipcard';
 //TODO: refactor row and col to make responsive
 import Layout from '../components/layout';
 
@@ -46,7 +47,7 @@ const IndexPage = () => (
                   Learn how AI, blockchain, IoT & more may help your business.
                   Find tech, license, acquire or innovate.
                 </div>
-                <a href="#" className="btn btn-primary yellow-button">
+                <a href="/gotomarket" className="btn btn-primary yellow-button">
                   Learn More
                 </a>
               </div>
@@ -62,7 +63,8 @@ const IndexPage = () => (
                   You’ve made something disruptive – now Get Funded,
                   Go-to-Market & Make B2B Sales
                 </div>
-                <a href="#" className="btn btn-primary yellow-button">
+                {/* not a real link yet */}
+                <a href="/gotomarket" className="btn btn-primary yellow-button">
                   Learn More
                 </a>
               </div>
@@ -88,7 +90,8 @@ const IndexPage = () => (
                   Get programs that focus on customer success & revenue. Learn
                   B2B Sales, Go-to-Market & How to Pitch to Investors.
                 </div>
-                <a href="#" className="btn btn-primary yellow-button">
+                {/* not a real link yet */}
+                <a href="/gotomarket" className="btn btn-primary yellow-button">
                   Learn More
                 </a>
               </div>
@@ -114,7 +117,8 @@ const IndexPage = () => (
                   Find a match, or, get sales help for your tech portfolio
                   investments.
                 </div>
-                <a href="#" className="btn btn-primary yellow-button">
+                {/* not a real link yet */}
+                <a href="/gotomarket" className="btn btn-primary yellow-button">
                   Learn More
                 </a>
               </div>

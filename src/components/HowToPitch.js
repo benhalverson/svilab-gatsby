@@ -202,7 +202,11 @@ function HowToPitch() {
                 <li>Slide template - what to show</li>
                 <li>Sideology - make slides simple and impactful</li>
               </ul>
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg"
+                href="/gotomarket"
+                role="button"
+              >
                 Send more info
               </a>
             </div>

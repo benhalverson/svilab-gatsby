@@ -155,7 +155,11 @@ function HowToPitch() {
                 <li>How to demo your product</li>
                 <li>Answering objections</li>
               </ul>
-              <a className="btn btn-primary btn-lg" href="#" role="button">
+              <a
+                className="btn btn-primary btn-lg"
+                href="/gotomarket"
+                role="button"
+              >
                 Send more info
               </a>
             </div>

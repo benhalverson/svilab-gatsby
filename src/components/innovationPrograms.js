@@ -127,7 +127,11 @@ export default class InnovationPrograms extends Component {
           <p>E-mail us to discuss your goals! </p>
         </div>
         <div>
-          <a className="btn btn-primary btn-lg" href="#" role="button">
+          <a
+            className="btn btn-primary btn-lg"
+            href="/gotomarket"
+            role="button"
+          >
             Send more info
           </a>
         </div>
@@ -156,7 +160,11 @@ export default class InnovationPrograms extends Component {
           </ul>
         </div>
         <div>
-          <a className="btn btn-primary btn-lg" href="#" role="button">
+          <a
+            className="btn btn-primary btn-lg"
+            href="/gotomarket"
+            role="button"
+          >
             Send more info
           </a>
         </div>
@@ -182,7 +190,11 @@ export default class InnovationPrograms extends Component {
             <li>Going international</li>
             <li>Building credibility selling to Enterprises</li>
           </ul>
-          <a className="btn btn-primary btn-lg" href="#" role="button">
+          <a
+            className="btn btn-primary btn-lg"
+            href="/gotomarket"
+            role="button"
+          >
             Send more info
           </a>
         </div>
@@ -213,7 +225,11 @@ export default class InnovationPrograms extends Component {
             Workshops range from 2 hours to half day, to 1 or 2 days in
             duration.
           </p>
-          <a className="btn btn-primary btn-lg" href="#" role="button">
+          <a
+            className="btn btn-primary btn-lg"
+            href="/gotomarket"
+            role="button"
+          >
             Send more info
           </a>
         </div>
