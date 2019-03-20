@@ -13,22 +13,28 @@ class StartupLogos extends Component {
   render() {
     const items = [
       {
-        src: SiliconValley
+        src: SiliconValley,
+        caption: ''
       },
       {
-        src: Korea
+        src: Korea,
+        caption: ''
       },
       {
-        src: China
+        src: China,
+        caption: ''
       },
       {
-        src: Australia
+        src: Australia,
+        caption: ''
       },
       {
-        src: Austria
+        src: Austria,
+        caption: ''
       },
       {
-        src: Turkey
+        src: Turkey,
+        caption: ''
       }
     ];
     return (
