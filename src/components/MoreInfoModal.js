@@ -33,7 +33,9 @@ class MoreInfoModal extends Component {
     const email = document.getElementById('Email').value;
     Axios({
       method: 'POST',
-      url: process.env.URL || 'http://localhost:3000/info',
+      url:
+        process.env.URL ||
+        'http://localhost:9000/.netlify/functions/FormHandler',
       data: {
         firstName,
         lastName,
@@ -41,7 +43,6 @@ class MoreInfoModal extends Component {
       }
     })
       .then(response => {
-        debugger;
         if (response.data.msg === 'success') {
           console.log('message sent');
           this.resetForm();
