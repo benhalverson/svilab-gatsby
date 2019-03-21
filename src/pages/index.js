@@ -15,6 +15,7 @@ import StartupLogos from '../components/startupLogos';
 import CorporateCard from '../components/FlippingCard/CorporateCard';
 import StartupCard from '../components/FlippingCard/StartupCard';
 import AcceleratorCard from '../components/FlippingCard/AcceleratorsCard';
+import InvestorsCard from '../components/FlippingCard/InvestorsCard';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -49,31 +50,7 @@ const IndexPage = () => (
             <AcceleratorCard />
           </div>
           <div className="col-md-3">
-            <div
-              className="card"
-              style={{
-                width: '12rem',
-                backgroundColor: '#178271',
-                color: 'yellow'
-              }}
-            >
-              <div className="card-body" style={{ textAlign: 'center' }}>
-                <h5
-                  className="card-title"
-                  style={{ fontWeight: 'bold', color: 'yellow' }}
-                >
-                  Investors, Angels <br /> & Family Offices
-                </h5>
-                <div className="mask-data">
-                  Find a match, or, get sales help for your tech portfolio
-                  investments.
-                </div>
-                {/* not a real link yet */}
-                <a href="/gotomarket" className="btn btn-primary yellow-button">
-                  Learn More
-                </a>
-              </div>
-            </div>
+            <InvestorsCard />
           </div>
         </div>
         <div className="row">
