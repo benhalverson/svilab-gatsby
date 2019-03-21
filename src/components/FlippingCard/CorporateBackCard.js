@@ -1,6 +1,6 @@
 import React from 'react';
-import './BackCard.css';
-const BackCard = () => {
+import './CorporateBackCard.css';
+const CorporateBackCard = () => {
   return (
     <div className="card-side side-back">
       <div className="card corporate-color">
@@ -8,7 +8,7 @@ const BackCard = () => {
           <h5 className="card-title card-title--yellow card-title-spacing">
             Corporates
           </h5>
-          <div>
+          <div className="white-text">
             Learn how AI, blockchain, IoT & more may help your business. Find
             tech, license, acquire or innovate.
           </div>
@@ -20,4 +20,4 @@ const BackCard = () => {
     </div>
   );
 };
-export default BackCard;
+export default CorporateBackCard;

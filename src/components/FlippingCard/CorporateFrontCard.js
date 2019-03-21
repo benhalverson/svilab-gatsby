@@ -1,7 +1,7 @@
 import React from 'react';
-import './FrontCard.css';
+import './CorporateFrontCard.css';
 
-const FrontCard = () => {
+const CorporateFrontCard = () => {
   return (
     <div className="card-side side-front">
       <div className="card corporate-color">
@@ -14,4 +14,4 @@ const FrontCard = () => {
     </div>
   );
 };
-export default FrontCard;
+export default CorporateFrontCard;

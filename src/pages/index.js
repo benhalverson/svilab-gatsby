@@ -12,7 +12,8 @@ import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 
 import StartupLogos from '../components/startupLogos';
-import CardContainer from '../components/FlippingCard/CardContainer';
+import CorporateCard from '../components/FlippingCard/CorporateCard';
+import StartupCard from '../components/FlippingCard/StartupCard';
 
 const IndexPage = () => (
   <Fragment>
@@ -38,24 +39,11 @@ const IndexPage = () => (
         </div>
         <div className="row bottom-row">
           <div className="col-md-3">
-            <CardContainer />
+            <CorporateCard />
           </div>
 
           <div className="col-md-3">
-            <div className="card startups-color">
-              <div className="card-body" style={{ textAlign: 'center' }}>
-                <h5 className="card-title  card-title--yellow card-title-spacing">
-                  Startups
-                </h5>
-                <div className="mask-data">
-                  You’ve made something disruptive – now Get Funded,
-                  Go-to-Market & Make B2B Sales
-                </div>
-                <a href="/gotomarket" className="btn btn-primary yellow-button">
-                  Learn More
-                </a>
-              </div>
-            </div>
+            <StartupCard />
           </div>
           <div className="col-md-3">
             <div
