@@ -21,9 +21,7 @@
   z-index: 1;
   margin: 32px auto;
   max-width: 720px;
-  /* height: 420px; */
   perspective: 1000px;
-  color: white;
 }
 
 /*- Flipping the card -*/
