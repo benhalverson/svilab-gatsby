@@ -14,7 +14,7 @@ import InnovationPrograms from '../components/innovationPrograms';
 import StartupLogos from '../components/startupLogos';
 import CorporateCard from '../components/FlippingCard/CorporateCard';
 import StartupCard from '../components/FlippingCard/StartupCard';
-
+import AcceleratorCard from '../components/FlippingCard/AcceleratorsCard';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -46,31 +46,7 @@ const IndexPage = () => (
             <StartupCard />
           </div>
           <div className="col-md-3">
-            <div
-              className="card"
-              style={{
-                width: '12rem',
-                backgroundColor: '#7f022f',
-                color: 'yellow'
-              }}
-            >
-              <div className="card-body" style={{ textAlign: 'center' }}>
-                <h5
-                  className="card-title"
-                  style={{ fontWeight: 'bold', color: 'yellow' }}
-                >
-                  Accelerators <br /> (Private & Govt.)
-                </h5>
-                <div className="mask-data">
-                  Get programs that focus on customer success & revenue. Learn
-                  B2B Sales, Go-to-Market & How to Pitch to Investors.
-                </div>
-                {/* not a real link yet */}
-                <a href="/gotomarket" className="btn btn-primary yellow-button">
-                  Learn More
-                </a>
-              </div>
-            </div>
+            <AcceleratorCard />
           </div>
           <div className="col-md-3">
             <div
