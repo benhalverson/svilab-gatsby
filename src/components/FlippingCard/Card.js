@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FrontCard from './FrontCard';
 import BackCard from './BackCard';
+import './Card.css';
 class Card extends Component {
   render() {
     return (

@@ -5,10 +5,8 @@
   "version": "0.1.0",
   "author": "Ben Halverson <benhalverson@me.com>",
   "dependencies": {
-    "animate.css": "3.7.0",
     "axios": "0.18.0",
     "bootstrap": "4.3.1",
-    "formik": "1.4.3",
     "gatsby": "2.1.17",
     "gatsby-image": "2.0.29",
     "gatsby-plugin-manifest": "2.0.19",
@@ -44,9 +42,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "babel-jest": "24.5.0",
-    "babel-preset-gatsby": "0.1.9",
-    "identity-obj-proxy": "3.0.0",
     "jest": "24.5.0",
     "netlify-lambda": "1.4.3",
     "nodemon": "1.18.10",
