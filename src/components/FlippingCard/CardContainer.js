@@ -9,10 +9,8 @@ class CardContainer extends Component {
   }
   render() {
     return (
-      <div className="card-container">
-        <div className="card-body">
-          <Card />
-        </div>
+      <div>
+        <Card />
       </div>
     );
   }
