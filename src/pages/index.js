@@ -39,20 +39,6 @@ const IndexPage = () => (
         <div className="row bottom-row">
           <div className="col-md-3">
             <CardContainer />
-            {/* <div className="card corporate-color">
-              <div className="card-body" style={{ textAlign: 'center' }}>
-                <h5 className="card-title card-title--yellow card-title-spacing">
-                  Corporates
-                </h5>
-                <div className="mask-data">
-                  Learn how AI, blockchain, IoT & more may help your business.
-                  Find tech, license, acquire or innovate.
-                </div>
-                <a href="/gotomarket" className="btn btn-primary yellow-button">
-                  Learn More
-                </a>
-              </div>
-            </div> */}
           </div>
 
           <div className="col-md-3">

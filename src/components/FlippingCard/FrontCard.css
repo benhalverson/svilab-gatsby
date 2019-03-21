@@ -1,0 +1,19 @@
+.side-front {
+  padding-left: 0;
+}
+
+.side-front-content {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+}
+
+.corporate-color {
+  background-color: #0055a1;
+  width: '12rem;';
+  padding-top: 12px;
+}
+
+.card-title--yellow {
+  text-align: center !important;
+}

@@ -1,14 +1,6 @@
 /* pallette link
 https://color.adobe.com/Copia-di-PTI-2-color-theme-11879057/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20Copia%20di%20PTI%202&mode=rgb&rgbvalues=0.5,0.008699770308701948,0.18400912716909085,0.8,0.23833608112331525,0.1348305094584978,0.09188667302561085,0.51,0.4446153846153843,0,0.33494009433963357,0.63,0.9,0.9,0.9&swatchOrder=0,1,2,3,4 */
 
-.corporate-color {
-  /* blue */
-  /* color: #0055a1; */
-  background-color: #0055a1;
-  width: '12rem;';
-  padding-top: 12px;
-}
-
 .card-title--yellow {
   color: yellow;
   font-weight: bold;
