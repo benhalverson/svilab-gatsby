@@ -1,5 +1,7 @@
+import './index.css';
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+
 //TODO Finish work on making the cards flip
 // import FlipCard from 'react-flipcard';
 //TODO: refactor row and col to make responsive
@@ -8,9 +10,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
-import './index.css';
+
 import StartupLogos from '../components/startupLogos';
-// import Cards from '../components/Cards';
+import CardContainer from '../components/FlippingCard/CardContainer';
 
 const IndexPage = () => (
   <Fragment>
@@ -35,10 +37,9 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row bottom-row">
-          {/* <Cards /> */}
-
           <div className="col-md-3">
-            <div className="card corporate-color">
+            <CardContainer />
+            {/* <div className="card corporate-color">
               <div className="card-body" style={{ textAlign: 'center' }}>
                 <h5 className="card-title card-title--yellow card-title-spacing">
                   Corporates
@@ -51,8 +52,9 @@ const IndexPage = () => (
                   Learn More
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
+
           <div className="col-md-3">
             <div className="card startups-color">
               <div className="card-body" style={{ textAlign: 'center' }}>
@@ -63,7 +65,6 @@ const IndexPage = () => (
                   You’ve made something disruptive – now Get Funded,
                   Go-to-Market & Make B2B Sales
                 </div>
-                {/* not a real link yet */}
                 <a href="/gotomarket" className="btn btn-primary yellow-button">
                   Learn More
                 </a>
