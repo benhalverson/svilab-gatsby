@@ -1,19 +1,18 @@
 import React from 'react';
-import './AcceleratorsBackCard.css';
-const AcceleratorsBackCard = () => {
+import './InvestorsBackCard.css';
+const InvestorsBackCard = () => {
   return (
     <div className="card-side side-back">
-      <div className="card accelerators-color">
+      <div className="card angels-color">
         <div>
           <h5 className="card-title card-title--yellow card-title-spacing">
-            Accelerators <br /> (Private & Govt.)
+            Investors, Angels <br /> & Family Offices
           </h5>
           <div className="white-text">
             <div className="mask-data">
-              Get programs that focus on customer success & revenue. Learn B2B
-              Sales, Go-to-Market & How to Pitch to Investors.
+              Find a match, or, get sales help for your tech portfolio
+              investments.
             </div>
-
             <a href="/gotomarket" className="btn btn-primary yellow-button">
               Learn More
             </a>
@@ -23,4 +22,4 @@ const AcceleratorsBackCard = () => {
     </div>
   );
 };
-export default AcceleratorsBackCard;
+export default InvestorsBackCard;

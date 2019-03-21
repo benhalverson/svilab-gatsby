@@ -1,17 +1,17 @@
 import React from 'react';
-import './AcceleratorsFront.css';
+import './InvestorsFrontCard.css';
 
-const AcceleratorsFrontCard = () => {
+const InvestorsFrontCard = () => {
   return (
     <div className="card-side side-front">
-      <div className="card accelerators-color">
+      <div className="card angels-color">
         <div className="card-body">
           <h5 className="card-title card-title--yellow card-title-spacing">
-            Accelerators <br /> (Private & Govt.)
+            Investors, Angels <br /> & Family Offices
           </h5>
         </div>
       </div>
     </div>
   );
 };
-export default AcceleratorsFrontCard;
+export default InvestorsFrontCard;
