@@ -8,6 +8,7 @@ const StartupFrontCard = () => {
         <div className="card-body">
           <h5 className="card-title card-title--yellow card-title-spacing">
             Startups
+            <p className="white-text">Ready to Scale?</p>
           </h5>
         </div>
       </div>

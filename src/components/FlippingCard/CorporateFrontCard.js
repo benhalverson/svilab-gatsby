@@ -8,6 +8,7 @@ const CorporateFrontCard = () => {
         <div className="card-body">
           <h5 className="card-title card-title--yellow card-title-spacing">
             Corporates
+            <p className="white-text">Ready to Disrupt?</p>
           </h5>
         </div>
       </div>

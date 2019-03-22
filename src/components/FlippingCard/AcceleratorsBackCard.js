@@ -6,12 +6,12 @@ const AcceleratorsBackCard = () => {
       <div className="card accelerators-color">
         <div>
           <h5 className="card-title card-title--yellow card-title-spacing">
-            Accelerators <br /> (Private & Govt.)
+            Accelerators <br /> (Private & Govt.) <br />
+            Increase Startup Revenue!
           </h5>
           <div className="white-text">
             <div className="mask-data">
-              Get programs that focus on customer success & revenue. Learn B2B
-              Sales, Go-to-Market & How to Pitch to Investors.
+              Learn B2B Sales, Go-to-Market & How to Pitch to Investors
             </div>
 
             <a href="/gotomarket" className="btn btn-primary yellow-button">
