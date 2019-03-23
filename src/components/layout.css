@@ -9,9 +9,9 @@ h6 {
   /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Open Sans Condensed', sans-serif;
 }
-p {
+/* p {
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 footer {
   flex-shrink: 0;

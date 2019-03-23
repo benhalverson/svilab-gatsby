@@ -29,9 +29,9 @@
   min-height: 142px;
 }
 
-.back {
+/* .back {
   background-color: rgba(30, 87, 153, 1);
-}
+} */
 
 .front:after {
   position: absolute;
@@ -110,7 +110,11 @@ back.accelerators-color {
   font-size: 1.2rem;
 }
 
-.corporate-color {
+.back.corporate-color {
+  background-color: #0055a1;
+}
+
+.corporate-color:after {
   background-color: #0055a1;
 }
 
@@ -123,7 +127,7 @@ back.accelerators-color {
   background-color: #cc3d22;
 }
 
-back.angels-color {
+.back.angels-color {
   /* green */
   background-color: #178271;
 }
