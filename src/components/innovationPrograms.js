@@ -1,4 +1,4 @@
-// import './innovationPrograms.css';
+import './innovationPrograms.css';
 import React, { Component } from 'react';
 import HowToPitch from './HowToPitch';
 import Story from './Story';

@@ -143,24 +143,6 @@ h1 {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-.front .inner p {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  position: relative;
-}
-
-.front .inner p:after {
-  content: '';
-  width: 4rem;
-  height: 2px;
-  position: absolute;
-  background: #c6d4df;
-  display: block;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  bottom: -0.75rem;
-}
 
 .front .inner span {
   color: rgba(255, 255, 255, 0.7);
@@ -168,7 +150,12 @@ h1 {
   font-weight: 300;
 }
 
-.accelerators-color {
+back.accelerators-color {
+  /* red */
+  background-color: #7f022f;
+}
+
+.accelerators-color:after {
   /* red */
   background-color: #7f022f;
 }
@@ -186,7 +173,12 @@ h1 {
   background-color: #cc3d22;
 }
 
-.angels-color {
+back.angels-color {
+  /* green */
+  background-color: #178271;
+}
+
+.angels-color:after {
   /* green */
   background-color: #178271;
 }

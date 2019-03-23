@@ -26,7 +26,8 @@ const IndexPage = () => (
             <div className="jumbotron header video sorta-transparent home">
               <h1>
                 <strong className="text-uppercase">
-                  Strategize. Innovate. <br /><br /> Go-to-market
+                  Strategize. Innovate. <br />
+                  <br /> Go-to-market
                 </strong>
               </h1>
               <h2>Turn Innovation into Revenue!</h2>
@@ -40,10 +41,8 @@ const IndexPage = () => (
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Corporates
-                    <br />
-                    <br />
-                    Ready to Disrupt?
                   </h5>
+                  <p className="white-text small-text">Ready to Disrupt?</p>
                 </div>
               </div>
               <div className="back">
@@ -52,7 +51,7 @@ const IndexPage = () => (
                     <h5 className="card-title card-title--yellow card-title-spacing">
                       Corporates
                       <br />
-                      <br/>
+                      <br />
                       Learn How AI, Blockchain, IoT & more Helps your Business.
                     </h5>
                     <div className="white-text small-text">
@@ -75,10 +74,8 @@ const IndexPage = () => (
                 <div className="inner ">
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Startups
-                    <br />
-                    <br />
-                    Ready to Scale?
                   </h5>
+                  <p className="white-text small-text">Ready to Scale?</p>
                 </div>
               </div>
               <div className="back startups-color">
@@ -90,8 +87,9 @@ const IndexPage = () => (
                       Grow Customers, Revenue & Valuation!
                     </h5>
                     <div className="white-text small-text">
-                      Learn Go-to-Market, <br/>B2B Sales & <br/> Pitch-to-Investors.<br/> Get
-                      temp VP of Sales / COO
+                      Learn Go-to-Market, <br />
+                      B2B Sales & <br /> Pitch-to-Investors.
+                      <br /> Get temp VP of Sales / COO
                     </div>
                     <a
                       href="/gotomarket"
@@ -106,26 +104,30 @@ const IndexPage = () => (
           </Col>
           <Col md="3">
             <div className="flipper-container">
-              <div className="front">
+              <div className="front accelerators-color">
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
-                    Accelerators, <br/>(Private & Govt.)
-                    <br />
-                    <br />
-                    Need Programs for Customer & Revenue Growth?
+                    Accelerators, <br />
+                    (Private & Govt.)
                   </h5>
+                  <p className="white-text small-text">
+                    Need Programs for Customer & Revenue Growth?
+                  </p>
                 </div>
               </div>
-              <div className="back">
+              <div className="back accelerators-color">
                 <div className="inner">
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
-                      Accelerators, <br/>(Private & Govt.)
-                      <br /><br />
-                      Increase Startup Revenue!
+                      Accelerators, <br />
+                      (Private & Govt.)
                     </h5>
+                    <p className="white-text small-text">
+                      Increase Startup Revenue!
+                    </p>
                     <div className="white-text small-text">
-                      Learn B2B Sales, <br/>Go-to-Market & <br/> How to Pitch to Investors
+                      Learn B2B Sales, <br />
+                      Go-to-Market & <br /> How to Pitch to Investors
                     </div>
                     <a
                       href="/gotomarket"
@@ -140,26 +142,28 @@ const IndexPage = () => (
           </Col>
           <Col md="3">
             <div className="flipper-container">
-              <div className="front">
+              <div className="front angels-color">
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Investors, Family Offices & Angels
-                    <br /><br />
-                    Investing in Tech? Are Startup Revenues too Low?
                   </h5>
+                  <p className="white-text small-text">
+                    Investing in Tech? Are Startup Revenues too Low?
+                  </p>
                 </div>
               </div>
-              <div className="back">
+              <div className="back angels-color">
                 <div className="inner">
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
                       Investors, Family Offices & Angels
-                      <br /><br />
+                      <br />
+                      <br />
                       Increase Startup Revenue & Valuation
                     </h5>
                     <div className="white-text small-text">
-                      Learn Investing in Startups, or, <br/>Get Sales / Operations
-                      Help for your Startups
+                      Learn Investing in Startups, or, <br />
+                      Get Sales / Operations Help for your Startups
                     </div>
                     <a
                       href="/gotomarket"
