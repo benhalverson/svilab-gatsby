@@ -8,6 +8,9 @@ const InvestorsFrontCard = () => {
         <div className="card-body">
           <h5 className="card-title card-title--yellow card-title-spacing">
             Investors, Angels <br /> & Family Offices
+            <p className="white-text">
+              Investing in Tech? Are Startup Revenues too Low?
+            </p>
           </h5>
         </div>
       </div>

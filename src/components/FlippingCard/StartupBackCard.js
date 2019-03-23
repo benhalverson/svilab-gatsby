@@ -7,11 +7,12 @@ const StartupBackCard = () => {
         <div>
           <h5 className="card-title card-title--yellow card-title-spacing">
             Startups
+            <p className="white-text">Grow Customers, Revenue & Valuation!</p>
           </h5>
           <div className="white-text">
             <div className="mask-data">
-              You’ve made something disruptive – now Get Funded, Go-to-Market &
-              Make B2B Sales
+              Learn Go-to-Market, B2B Sales & Pitch-to-Investors. Get temp VP of
+              Sales / COO
             </div>
             <a href="/gotomarket" className="btn btn-primary yellow-button">
               Learn More

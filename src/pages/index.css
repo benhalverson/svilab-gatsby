@@ -82,6 +82,8 @@ a.btn.btn-primary {
 .top-row {
   padding: 0;
   margin: 0;
+  position: relative;
+  bottom: 364px;
 }
 
 .mask-data {
