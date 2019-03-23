@@ -167,3 +167,30 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
+
+.accelerators-color {
+  /* red */
+  background-color: #7f022f;
+}
+
+.corporate-color {
+  background-color: #0055a1;
+}
+
+.back.startups-color {
+  /* orange */
+  background-color: #cc3d22;
+}
+
+.front.startups-color:after {
+  background-color: #cc3d22;
+}
+
+.angels-color {
+  /* green */
+  background-color: #178271;
+}
+
+.small-text {
+  font-size: 1rem;
+}

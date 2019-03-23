@@ -26,7 +26,7 @@ const IndexPage = () => (
             <div className="jumbotron header video sorta-transparent home">
               <h1>
                 <strong className="text-uppercase">
-                  Strategize. Innovate. <br /> Go-to-market
+                  Strategize. Innovate. <br /><br /> Go-to-market
                 </strong>
               </h1>
               <h2>Turn Innovation into Revenue!</h2>
@@ -41,6 +41,7 @@ const IndexPage = () => (
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Corporates
                     <br />
+                    <br />
                     Ready to Disrupt?
                   </h5>
                 </div>
@@ -51,9 +52,10 @@ const IndexPage = () => (
                     <h5 className="card-title card-title--yellow card-title-spacing">
                       Corporates
                       <br />
+                      <br/>
                       Learn How AI, Blockchain, IoT & more Helps your Business.
                     </h5>
-                    <div className="white-text">
+                    <div className="white-text small-text">
                       License, Acquire or Innovate & Go-to-Market
                     </div>
                     <a
@@ -69,16 +71,17 @@ const IndexPage = () => (
           </Col>
           <Col md="3">
             <div className="flipper-container">
-              <div className="front">
-                <div className="inner">
+              <div className="front startups-color">
+                <div className="inner ">
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Startups
+                    <br />
                     <br />
                     Ready to Scale?
                   </h5>
                 </div>
               </div>
-              <div className="back">
+              <div className="back startups-color">
                 <div className="inner">
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
@@ -86,7 +89,7 @@ const IndexPage = () => (
                       <br />
                       Grow Customers, Revenue & Valuation!
                     </h5>
-                    <div className="white-text">
+                    <div className="white-text small-text">
                       Learn Go-to-Market, B2B Sales & Pitch-to-Investors. Get
                       temp VP of Sales / COO
                     </div>
@@ -106,7 +109,8 @@ const IndexPage = () => (
               <div className="front">
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
-                    Accelerators, (Private & Govt.)
+                    Accelerators, <br/>(Private & Govt.)
+                    <br />
                     <br />
                     Need Programs for Customer & Revenue Growth?
                   </h5>
@@ -116,11 +120,11 @@ const IndexPage = () => (
                 <div className="inner">
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
-                      Accelerators, (Private & Govt.)
-                      <br />
+                      Accelerators, <br/>(Private & Govt.)
+                      <br /><br />
                       Increase Startup Revenue!
                     </h5>
-                    <div className="white-text">
+                    <div className="white-text small-text">
                       Learn B2B Sales, Go-to-Market & How to Pitch to Investors
                     </div>
                     <a
@@ -140,7 +144,7 @@ const IndexPage = () => (
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Investors, Family Offices & Angels
-                    <br />
+                    <br /><br />
                     Investing in Tech? Are Startup Revenues too Low?
                   </h5>
                 </div>
@@ -150,10 +154,10 @@ const IndexPage = () => (
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
                       Investors, Family Offices & Angels
-                      <br />
+                      <br /><br />
                       Increase Startup Revenue & Valuation
                     </h5>
-                    <div className="white-text">
+                    <div className="white-text small-text">
                       Learn Investing in Startups, or, Get Sales / Operations
                       Help for your Startups
                     </div>
