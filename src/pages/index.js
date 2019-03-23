@@ -90,7 +90,7 @@ const IndexPage = () => (
                       Grow Customers, Revenue & Valuation!
                     </h5>
                     <div className="white-text small-text">
-                      Learn Go-to-Market, B2B Sales & Pitch-to-Investors. Get
+                      Learn Go-to-Market, <br/>B2B Sales & <br/> Pitch-to-Investors.<br/> Get
                       temp VP of Sales / COO
                     </div>
                     <a
@@ -125,7 +125,7 @@ const IndexPage = () => (
                       Increase Startup Revenue!
                     </h5>
                     <div className="white-text small-text">
-                      Learn B2B Sales, Go-to-Market & How to Pitch to Investors
+                      Learn B2B Sales, <br/>Go-to-Market & <br/> How to Pitch to Investors
                     </div>
                     <a
                       href="/gotomarket"
@@ -158,7 +158,7 @@ const IndexPage = () => (
                       Increase Startup Revenue & Valuation
                     </h5>
                     <div className="white-text small-text">
-                      Learn Investing in Startups, or, Get Sales / Operations
+                      Learn Investing in Startups, or, <br/>Get Sales / Operations
                       Help for your Startups
                     </div>
                     <a
