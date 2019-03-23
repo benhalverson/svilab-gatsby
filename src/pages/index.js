@@ -37,7 +37,7 @@ const IndexPage = () => (
         <Row>
           <Col md="3">
             <div className="flipper-container">
-              <div className="front">
+              <div className="front corporate-color">
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
                     Corporates
@@ -45,7 +45,7 @@ const IndexPage = () => (
                   <p className="white-text small-text">Ready to Disrupt?</p>
                 </div>
               </div>
-              <div className="back">
+              <div className="back corporate-color">
                 <div className="inner">
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
@@ -145,7 +145,9 @@ const IndexPage = () => (
               <div className="front angels-color">
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
-                    Investors, Family Offices & Angels
+                  Investors, Angels &
+                      <br />
+                      Family Offices
                   </h5>
                   <p className="white-text small-text">
                     Investing in Tech? Are Startup Revenues too Low?
@@ -156,11 +158,11 @@ const IndexPage = () => (
                 <div className="inner">
                   <div>
                     <h5 className="card-title card-title--yellow card-title-spacing">
-                      Investors, Family Offices & Angels
+                      Investors, Angels &
                       <br />
-                      <br />
-                      Increase Startup Revenue & Valuation
+                      Family Offices
                     </h5>
+                    <p className="white-text small-text"> Increase Startup Revenue & Valuation</p>
                     <div className="white-text small-text">
                       Learn Investing in Startups, or, <br />
                       Get Sales / Operations Help for your Startups
