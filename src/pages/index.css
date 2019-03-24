@@ -107,6 +107,6 @@ a.btn.btn-primary {
   color: #fff;
   font-family: Open Sans Condensed, sans-serif;
   font-size: 1.3rem;
-  line-height: 1;
+  /* line-height: 1; */
   font-weight: bold;
 }

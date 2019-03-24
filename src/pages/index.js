@@ -180,11 +180,10 @@ const IndexPage = () => (
                       Family Offices
                     </h5>
                     <p className="white-text small-text">
-                      {' '}
                       Increase Startup Revenue & Valuation
                     </p>
                     <div className="white-text small-text">
-                      Learn Investing in Startups, or, <br />
+                      Learn Investing in Startups,<br />
                       Get Sales / Operations Help for your Startups
                     </div>
                     <Link
@@ -209,20 +208,20 @@ const IndexPage = () => (
           <Col md="12">
             <div className="jumbotron sub-header">
               <Row>
-                <Col xs="3">
+                <Col xs="12" md="4" >
                   <p className="white-text">
                     We help take your innovation to customers, increase sales
                     revenue and grow the company – especially B2B - in the US
                     and globally.
                   </p>
                 </Col>
-                <Col xs="3">
+                <Col xs="12" md="4">
                   <p className="white-text">
                     We provide workshops, consulting and experts to support your
                     revenue targets.
                   </p>
                 </Col>
-                <Col xs="3">
+                <Col xs="12" md="4">
                   <p className="white-text">
                     Our Goal is to get your innovation company to its first $1M
                     revenue. Then, … more! Rollover the buttons for details.
