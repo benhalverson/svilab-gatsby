@@ -14,7 +14,7 @@ export default class InnovationPrograms extends Component {
     return (
       <Row>
         <Col>
-          <div className="jumbotron innovation">
+          <div className="jumbotron innovation" id="corporateInnovation">
             <h1 className="display-5">Corporate Innovation</h1>
             <div>
               <p>
@@ -84,7 +84,7 @@ export default class InnovationPrograms extends Component {
               </p>
             </div>
 
-            <h3>
+            <h3 id="startups-accelerators">
               <strong>Programs Offered</strong>
             </h3>
 
@@ -104,7 +104,7 @@ export default class InnovationPrograms extends Component {
               <ExecutiveCoaching />
             </div>
 
-            <h1 className="display-5">Boardroom</h1>
+            <h1 className="display-5" id="temp">Boardroom</h1>
             <div>
               <p>
                 Is your C-suite looking into Artificial Intelligence,
