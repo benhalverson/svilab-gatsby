@@ -27,30 +27,30 @@ class MoreInfoModal extends Component {
     }));
   };
 
-  // handleSubmit = e => {
-  //   e.preventDefault();
-  //   const firstName = document.getElementById('FirstName').value;
-  //   const lastName = document.getElementById('LastName').value;
-  //   const email = document.getElementById('Email').value;
-  //   Axios({
-  //     method: 'POST',
-  //     url:
-  //       process.env.URL ||
-  //       'http://localhost:9000/.netlify/functions/FormHandler',
-  //     data: {
-  //       firstName,
-  //       lastName,
-  //       email
-  //     }
-  //   })
-  //     .then(response => {
-  //       if (response.data.msg === 'success') {
-  //         console.log('message sent');
-  //         this.resetForm();
-  //       }
-  //     })
-  //     .catch(error => console.error(`Failed to send data ${error}`));
-  // };
+  handleSubmit = e => {
+    e.preventDefault();
+    const firstName = document.getElementById('FirstName').value;
+    const lastName = document.getElementById('LastName').value;
+    const email = document.getElementById('Email').value;
+    Axios({
+      method: 'POST',
+      url:
+        process.env.URL ||
+        'http://localhost:9000/.netlify/functions/FormHandler',
+      data: {
+        firstName,
+        lastName,
+        email
+      }
+    })
+      .then(response => {
+        if (response.data.msg === 'success') {
+          console.log('message sent');
+          this.resetForm();
+        }
+      })
+      .catch(error => console.error(`Failed to send data ${error}`));
+  };
 
   resetForm = () => {
     document.getElementById('contact-form').reset();
@@ -71,19 +71,8 @@ class MoreInfoModal extends Component {
             Yes! Send me info on Corporate Innovation
           </ModalHeader>
           <ModalBody>
-          <form
-      name="contact-form"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
-      <input name="name" placeholder="Your Name" type="text" />
-      <input name="email" placeholder="name@name.com" type="email" />
-      <textarea name="message" />
-      <button>Send</button>
-      <Link to="/page-2/">Go to page 2</Link>
-    </form>
-            {/* <Form
+  
+            <Form
               onSubmit={this.handleSubmit}
               id="contact-form"
               name="corporeateInnovation"
@@ -135,8 +124,8 @@ class MoreInfoModal extends Component {
                 </Col>
                
               </FormGroup>
-              <Button type="submit">Submit</Button>
-            </Form> */}
+              <Button>Submit</Button>
+            </Form>
           </ModalBody>
         </Modal>
       </div>
