@@ -11,6 +11,7 @@ import {
   Col
 } from 'reactstrap';
 import Axios from 'axios';
+import Link from 'gatsby-link'
 
 class MoreInfoModal extends Component {
   constructor(props) {
@@ -26,30 +27,30 @@ class MoreInfoModal extends Component {
     }));
   };
 
-  handleSubmit = e => {
-    e.preventDefault();
-    const firstName = document.getElementById('FirstName').value;
-    const lastName = document.getElementById('LastName').value;
-    const email = document.getElementById('Email').value;
-    Axios({
-      method: 'POST',
-      url:
-        process.env.URL ||
-        'http://localhost:9000/.netlify/functions/FormHandler',
-      data: {
-        firstName,
-        lastName,
-        email
-      }
-    })
-      .then(response => {
-        if (response.data.msg === 'success') {
-          console.log('message sent');
-          this.resetForm();
-        }
-      })
-      .catch(error => console.error(`Failed to send data ${error}`));
-  };
+  // handleSubmit = e => {
+  //   e.preventDefault();
+  //   const firstName = document.getElementById('FirstName').value;
+  //   const lastName = document.getElementById('LastName').value;
+  //   const email = document.getElementById('Email').value;
+  //   Axios({
+  //     method: 'POST',
+  //     url:
+  //       process.env.URL ||
+  //       'http://localhost:9000/.netlify/functions/FormHandler',
+  //     data: {
+  //       firstName,
+  //       lastName,
+  //       email
+  //     }
+  //   })
+  //     .then(response => {
+  //       if (response.data.msg === 'success') {
+  //         console.log('message sent');
+  //         this.resetForm();
+  //       }
+  //     })
+  //     .catch(error => console.error(`Failed to send data ${error}`));
+  // };
 
   resetForm = () => {
     document.getElementById('contact-form').reset();
@@ -58,7 +59,7 @@ class MoreInfoModal extends Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.toggle}>
+        <Button color="primary" onClick={this.toggle}>
           {this.props.buttonLabel}
         </Button>
         <Modal
@@ -66,9 +67,29 @@ class MoreInfoModal extends Component {
           toggle={this.toggle}
           className={this.props.className}
         >
-          <ModalHeader toggle={this.toggle}>Corporate Innovation</ModalHeader>
+          <ModalHeader toggle={this.toggle}>
+            Yes! Send me info on Corporate Innovation
+          </ModalHeader>
           <ModalBody>
-            <Form onSubmit={this.handleSubmit} id="contact-form">
+          <form
+      name="contact-form"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input name="name" placeholder="Your Name" type="text" />
+      <input name="email" placeholder="name@name.com" type="email" />
+      <textarea name="message" />
+      <button>Send</button>
+      <Link to="/page-2/">Go to page 2</Link>
+    </form>
+            {/* <Form
+              onSubmit={this.handleSubmit}
+              id="contact-form"
+              name="corporeateInnovation"
+              method="POST"
+              data-netlify="true"
+            >
               <FormGroup row>
                 <Label for="FirstName" sm={2}>
                   First Name
@@ -83,36 +104,39 @@ class MoreInfoModal extends Component {
                   />
                 </Col>
               </FormGroup>
+
               <FormGroup row>
+                <Label for="LastName" sm={2}>
+                  Last Name
+                </Label>
                 <Col sm={10}>
-                  <Label for="LastName" sm={2}>
-                    Last Name
-                  </Label>
                   <Input
                     type="text"
                     name="LastName"
                     id="LastName"
-                    placeholder="Enter your last name"
+                    placeholder="Enter your Last Name"
                     required
                   />
                 </Col>
               </FormGroup>
-              <FormGroup>
+
+              <FormGroup row>
+                <Label for="Email" sm={2}>
+                  Email
+                </Label>
                 <Col sm={10}>
-                  <Label for="Email" sm={2}>
-                    Email
-                  </Label>
                   <Input
                     type="email"
-                    name="email"
+                    name="Email"
                     id="Email"
-                    placeholder="Enter your email"
+                    placeholder="Enter your Email"
                     required
                   />
                 </Col>
+               
               </FormGroup>
-              <Button>Submit</Button>
-            </Form>
+              <Button type="submit">Submit</Button>
+            </Form> */}
           </ModalBody>
         </Modal>
       </div>
