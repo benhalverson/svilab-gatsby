@@ -35,8 +35,7 @@ class MoreInfoModal extends Component {
     Axios({
       method: 'POST',
       url:
-        process.env.URL ||
-        'http://localhost:9000/.netlify/functions/FormHandler',
+        'http://svilab.netlify.com/.netlify/functions/FormHandler',
       data: {
         firstName,
         lastName,
