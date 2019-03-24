@@ -11,7 +11,6 @@ import {
   Col
 } from 'reactstrap';
 import Axios from 'axios';
-import Link from 'gatsby-link'
 
 class MoreInfoModal extends Component {
   constructor(props) {

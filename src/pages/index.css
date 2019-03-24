@@ -78,6 +78,7 @@ a.btn.btn-primary {
   margin: 0;
   position: relative;
   bottom: 364px;
+  z-index: -1;
 }
 
 .mask-data {
