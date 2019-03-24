@@ -11,6 +11,7 @@ import {
   Col
 } from 'reactstrap';
 import Axios from 'axios';
+import Link from 'gatsby-link'
 
 class MoreInfoModal extends Component {
   constructor(props) {
@@ -70,21 +71,18 @@ class MoreInfoModal extends Component {
             Yes! Send me info on Corporate Innovation
           </ModalHeader>
           <ModalBody>
-            <form name="contact" netlify>
-              <p>
-                <label>
-                  Name <input type="text" name="name" />
-                </label>
-              </p>
-              <p>
-                <label>
-                  Email <input type="email" name="email" />
-                </label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
+          <form
+      name="contact-form"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input name="name" placeholder="Your Name" type="text" />
+      <input name="email" placeholder="name@name.com" type="email" />
+      <textarea name="message" />
+      <button>Send</button>
+      <Link to="/page-2/">Go to page 2</Link>
+    </form>
             {/* <Form
               onSubmit={this.handleSubmit}
               id="contact-form"
