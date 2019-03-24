@@ -145,9 +145,9 @@ const IndexPage = () => (
               <div className="front angels-color">
                 <div className="inner">
                   <h5 className="card-title card-title--yellow card-title-spacing">
-                  Investors, Angels &
-                      <br />
-                      Family Offices
+                    Investors, Angels &
+                    <br />
+                    Family Offices
                   </h5>
                   <p className="white-text small-text">
                     Investing in Tech? Are Startup Revenues too Low?
@@ -162,7 +162,10 @@ const IndexPage = () => (
                       <br />
                       Family Offices
                     </h5>
-                    <p className="white-text small-text"> Increase Startup Revenue & Valuation</p>
+                    <p className="white-text small-text">
+                      {' '}
+                      Increase Startup Revenue & Valuation
+                    </p>
                     <div className="white-text small-text">
                       Learn Investing in Startups, or, <br />
                       Get Sales / Operations Help for your Startups
@@ -176,6 +179,33 @@ const IndexPage = () => (
                   </div>
                 </div>
               </div>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md="12">
+            <div className="jumbotron sub-header">
+            <Row>
+              <Col xs="3">
+                <p className="white-text">
+                  We help take your innovation to customers, increase sales
+                  revenue and grow the company – especially B2B - in the US and
+                  globally.
+                </p>
+              </Col>
+              <Col xs="3">
+              <p className="white-text">
+                  We provide workshops, consulting and experts to support your
+                  revenue targets.
+                </p>
+              </Col>
+              <Col xs="3">
+              <p className="white-text">
+                  Our Goal is to get your innovation company to its first $1M
+                  revenue. Then, … more! Rollover the buttons for details.
+                </p>
+              </Col>
+              </Row>
             </div>
           </Col>
         </Row>
