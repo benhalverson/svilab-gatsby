@@ -3,6 +3,7 @@ import './index.css';
 
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import Layout from '../components/layout';
 
 import SEO from '../components/seo';
@@ -43,6 +44,7 @@ const IndexPage = () => (
                     Corporates
                   </h5>
                   <p className="white-text small-text">Ready to Disrupt?</p>
+                  <div className="hidden-div" />
                 </div>
               </div>
               <div className="back corporate-color">
@@ -57,12 +59,17 @@ const IndexPage = () => (
                     <div className="white-text small-text">
                       License, Acquire or Innovate & Go-to-Market
                     </div>
-                    <a
-                      href="/gotomarket"
+                    <Link
+                      activeClass="active"
+                      to="corporateInnovation"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -91,12 +98,17 @@ const IndexPage = () => (
                       B2B Sales & <br /> Pitch-to-Investors.
                       <br /> Get temp VP of Sales / COO
                     </div>
-                    <a
-                      href="/gotomarket"
+                    <Link
+                      activeClass="active"
+                      to="startups-accelerators"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -129,12 +141,17 @@ const IndexPage = () => (
                       Learn B2B Sales, <br />
                       Go-to-Market & <br /> How to Pitch to Investors
                     </div>
-                    <a
-                      href="/gotomarket"
+                    <Link
+                      activeClass="active"
+                      to="startups-accelerators"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -170,12 +187,18 @@ const IndexPage = () => (
                       Learn Investing in Startups, or, <br />
                       Get Sales / Operations Help for your Startups
                     </div>
-                    <a
-                      href="/gotomarket"
+                    <Link
+                      activeClass="active"
+                      to="temp"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </a>
+                    </Link>
+                    {/* TODO create an investors section to scroll to... */}
                   </div>
                 </div>
               </div>
@@ -185,26 +208,26 @@ const IndexPage = () => (
         <Row>
           <Col md="12">
             <div className="jumbotron sub-header">
-            <Row>
-              <Col xs="3">
-                <p className="white-text">
-                  We help take your innovation to customers, increase sales
-                  revenue and grow the company – especially B2B - in the US and
-                  globally.
-                </p>
-              </Col>
-              <Col xs="3">
-              <p className="white-text">
-                  We provide workshops, consulting and experts to support your
-                  revenue targets.
-                </p>
-              </Col>
-              <Col xs="3">
-              <p className="white-text">
-                  Our Goal is to get your innovation company to its first $1M
-                  revenue. Then, … more! Rollover the buttons for details.
-                </p>
-              </Col>
+              <Row>
+                <Col xs="3">
+                  <p className="white-text">
+                    We help take your innovation to customers, increase sales
+                    revenue and grow the company – especially B2B - in the US
+                    and globally.
+                  </p>
+                </Col>
+                <Col xs="3">
+                  <p className="white-text">
+                    We provide workshops, consulting and experts to support your
+                    revenue targets.
+                  </p>
+                </Col>
+                <Col xs="3">
+                  <p className="white-text">
+                    Our Goal is to get your innovation company to its first $1M
+                    revenue. Then, … more! Rollover the buttons for details.
+                  </p>
+                </Col>
               </Row>
             </div>
           </Col>
