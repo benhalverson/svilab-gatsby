@@ -16,3 +16,9 @@
 
 - crm
   - crm will be hosted on godaddy at crm.svilab.com
+
+## Use netlify Functions as a service
+
+- A function to send an email to steve
+- A function to subscribe a user to a Mailchimp mailing list
+- A function to send data to a CRM
