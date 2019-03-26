@@ -1,13 +1,17 @@
 import React from 'react';
 import demo from '../videos/demo.mp4'
+import { Jumbotron } from 'reactstrap';
 const VideoPlayer = () => {
 
   // const videoSource = `https://www.youtube.com/watch?v=Bey4XXJAqS8`;
 
   return(
-    <div>
-      <iframe src={demo} title="video player" />
-    </div>
+    
+    <Jumbotron className="">
+    <iframe src={demo} title="video player" />
+    </Jumbotron>
+      
+    
   )
 }
 export default VideoPlayer;

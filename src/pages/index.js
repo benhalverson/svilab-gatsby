@@ -240,7 +240,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="12">
+          <Col md="12" className="videoPlayer-Jumbotron">
             <VideoPlayer/>
           </Col>
         </Row>
