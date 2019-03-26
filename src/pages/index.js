@@ -11,6 +11,7 @@ import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import StartupLogos from '../components/startupLogos';
+import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -199,7 +200,7 @@ const IndexPage = () => (
                       Learn More
                     </Link>
 
-                    {/* TODO create an investors section to scroll to... */}
+                    {/* TODO create an investors page to link to */}
                   </div>
                 </div>
               </div>
@@ -240,12 +241,7 @@ const IndexPage = () => (
         </Row>
         <Row>
           <Col md="12">
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
+            <VideoPlayer/>
           </Col>
         </Row>
         <Row>
