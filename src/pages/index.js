@@ -3,15 +3,14 @@ import './index.css';
 
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link, animateScroll } from 'react-scroll';
+import { Link as GLink } from 'gatsby';
 import Layout from '../components/layout';
 
 import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
-
 import StartupLogos from '../components/startupLogos';
-
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -98,17 +97,12 @@ const IndexPage = () => (
                       B2B Sales & <br /> Pitch-to-Investors.
                       <br /> Get temp VP of Sales / COO
                     </div>
-                    <Link
-                      activeClass="active"
-                      to="startups-accelerators"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
+                    <GLink
+                      to="/programsOffered"
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </Link>
+                    </GLink>
                   </div>
                 </div>
               </div>
@@ -141,7 +135,7 @@ const IndexPage = () => (
                       Learn B2B Sales, <br />
                       Go-to-Market & <br /> How to Pitch to Investors
                     </div>
-                    <Link
+                    {/* <Link
                       activeClass="active"
                       to="startups-accelerators"
                       spy={true}
@@ -151,7 +145,13 @@ const IndexPage = () => (
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </Link>
+                    </Link> */}
+                    <GLink
+                      to="/programsOffered"
+                      className="btn btn-primary yellow-button"
+                    >
+                      Learn More
+                    </GLink>
                   </div>
                 </div>
               </div>
@@ -183,7 +183,8 @@ const IndexPage = () => (
                       Increase Startup Revenue & Valuation
                     </p>
                     <div className="white-text small-text">
-                      Learn Investing in Startups,<br />
+                      Learn Investing in Startups,
+                      <br />
                       Get Sales / Operations Help for your Startups
                     </div>
                     <Link
@@ -197,6 +198,7 @@ const IndexPage = () => (
                     >
                       Learn More
                     </Link>
+
                     {/* TODO create an investors section to scroll to... */}
                   </div>
                 </div>
@@ -208,7 +210,7 @@ const IndexPage = () => (
           <Col md="12">
             <div className="jumbotron sub-header">
               <Row>
-                <Col xs="12" md="4" >
+                <Col xs="12" md="4">
                   <p className="white-text">
                     We help take your innovation to customers, increase sales
                     revenue and grow the company – especially B2B - in the US
@@ -233,7 +235,17 @@ const IndexPage = () => (
         </Row>
         <Row>
           <Col>
-            <InnovationPrograms />
+            <InnovationPrograms id="corporateInnovation" />
+          </Col>
+        </Row>
+        <Row>
+          <Col md="12">
+            <p>New section goes here for references</p>
+            <p>New section goes here for references</p>
+            <p>New section goes here for references</p>
+            <p>New section goes here for references</p>
+            <p>New section goes here for references</p>
+            <p>New section goes here for references</p>
           </Col>
         </Row>
         <Row>
