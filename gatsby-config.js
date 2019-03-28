@@ -25,7 +25,15 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/tempLogo.png` // This path is relative to the root of the site.
-      }
+      },
+      {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingID: 'UA-137147522-1',
+          head: false,
+          exclude: ['/beta/'],
+          cookieDomain: 'svilab.com'
+        }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
