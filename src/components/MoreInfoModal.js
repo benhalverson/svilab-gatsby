@@ -33,12 +33,11 @@ class MoreInfoModal extends Component {
     const email = document.getElementById('Email').value;
     Axios({
       method: 'POST',
-      url:
-        'https://svilab.netlify.com/.netlify/functions/FormHandler',
+      url: 'https://svilab.netlify.com/.netlify/functions/FormHandler',
       data: {
-        FirstName,
-        LastName,
-        Email
+        firstName,
+        lastName,
+        email
       }
     })
       .then(response => {
@@ -69,7 +68,6 @@ class MoreInfoModal extends Component {
             Yes! Send me info on Corporate Innovation
           </ModalHeader>
           <ModalBody>
-  
             <Form
               onSubmit={this.handleSubmit}
               id="contact-form"
@@ -120,7 +118,6 @@ class MoreInfoModal extends Component {
                     required
                   />
                 </Col>
-               
               </FormGroup>
               <Button>Submit</Button>
             </Form>
