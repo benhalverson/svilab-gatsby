@@ -84,25 +84,7 @@ export default class InnovationPrograms extends Component {
               </p>
             </div>
 
-            <h3 id="startups-accelerators">
-              <strong>Programs Offered</strong>
-            </h3>
-
-            <div>
-              <HowToPitch />
-            </div>
-            <div>
-              <Story />
-            </div>
-            <div>
-              <GotoMarket />
-            </div>
-            <div>
-              <HardwareProducts />
-            </div>
-            <div>
-              <ExecutiveCoaching />
-            </div>
+            
 
             <h1 className="display-5" id="temp">Boardroom</h1>
             <div>
@@ -162,11 +144,9 @@ export default class InnovationPrograms extends Component {
               <strong>Keynotes for Entrepreneurs and Startups</strong>
               <ul>
                 <li>
-                  Get your message tighter and focused for much better results
+                  Get your message tighter for much better results
                 </li>
                 <li>Five Keys to Building Effective Startups</li>
-                <li>#3 Title</li>
-                <li>#4 Title</li>
               </ul>
             </div>
             <div>
