@@ -23,11 +23,11 @@ const IndexPage = () => (
         <Videobackground />
 
         <Row className="top-row">
-          <Col md="12">
+          <Col xs={{ size: 'auto' }}>
             <div className="jumbotron header video sorta-transparent home">
               <h1>
                 <strong className="text-uppercase">
-                  Strategize. Innovate. <br />
+                  Strategize. Innovate.
                   <br /> Go-to-market
                 </strong>
               </h1>
@@ -36,7 +36,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front corporate-color">
                 <div className="inner">
@@ -75,7 +75,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front startups-color">
                 <div className="inner ">
@@ -109,7 +109,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front accelerators-color">
                 <div className="inner">
@@ -158,7 +158,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front angels-color">
                 <div className="inner">
@@ -208,7 +208,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="12">
+          <Col xs="12" md="12" lg="12" xl="12">
             <div className="jumbotron sub-header">
               <Row>
                 <Col xs="12" md="4">
@@ -241,7 +241,7 @@ const IndexPage = () => (
         </Row>
         <Row>
           <Col md="12" className="videoPlayer-Jumbotron">
-            <VideoPlayer/>
+            <VideoPlayer />
           </Col>
         </Row>
         <Row>

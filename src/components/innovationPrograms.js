@@ -1,11 +1,6 @@
 import './innovationPrograms.css';
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
-import HowToPitch from './HowToPitch';
-import Story from './Story';
-import GotoMarket from './GotoMarket';
-import HardwareProducts from './HardwareProducts';
-import ExecutiveCoaching from './ExecutiveCoaching';
 import MoreInfoModal from './MoreInfoModal';
 
 export default class InnovationPrograms extends Component {
@@ -84,9 +79,9 @@ export default class InnovationPrograms extends Component {
               </p>
             </div>
 
-            
-
-            <h1 className="display-5" id="temp">Boardroom</h1>
+            <h1 className="display-5" id="temp">
+              Boardroom
+            </h1>
             <div>
               <p>
                 Is your C-suite looking into Artificial Intelligence,
@@ -143,9 +138,7 @@ export default class InnovationPrograms extends Component {
               </ul>
               <strong>Keynotes for Entrepreneurs and Startups</strong>
               <ul>
-                <li>
-                  Get your message tighter for much better results
-                </li>
+                <li>Get your message tighter for much better results</li>
                 <li>Five Keys to Building Effective Startups</li>
               </ul>
             </div>

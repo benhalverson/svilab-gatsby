@@ -111,3 +111,37 @@ a.btn.btn-primary {
   /* line-height: 1; */
   font-weight: bold;
 }
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .top-row {
+    bottom: 323px;
+  }
+  .header {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+  .text-uppercase {
+    font-size: 2rem;
+  }
+  .home {
+    position: relative;
+    top: 100%;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+  }
+
+  .sub-header {
+    position: relative;
+    top: 1rem;
+  }
+
+  .innovation {
+    position: relative;
+    top: 1rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
