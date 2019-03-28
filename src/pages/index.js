@@ -11,6 +11,7 @@ import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import StartupLogos from '../components/startupLogos';
+import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -22,11 +23,11 @@ const IndexPage = () => (
         <Videobackground />
 
         <Row className="top-row">
-          <Col md="12">
+          <Col xs={{ size: 'auto' }}>
             <div className="jumbotron header video sorta-transparent home">
               <h1>
                 <strong className="text-uppercase">
-                  Strategize. Innovate. <br />
+                  Strategize. Innovate.
                   <br /> Go-to-market
                 </strong>
               </h1>
@@ -35,7 +36,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front corporate-color">
                 <div className="inner">
@@ -74,7 +75,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front startups-color">
                 <div className="inner ">
@@ -108,7 +109,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front accelerators-color">
                 <div className="inner">
@@ -157,7 +158,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3">
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front angels-color">
                 <div className="inner">
@@ -199,7 +200,7 @@ const IndexPage = () => (
                       Learn More
                     </Link>
 
-                    {/* TODO create an investors section to scroll to... */}
+                    {/* TODO create an investors page to link to */}
                   </div>
                 </div>
               </div>
@@ -207,7 +208,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="12">
+          <Col xs="12" md="12" lg="12" xl="12">
             <div className="jumbotron sub-header">
               <Row>
                 <Col xs="12" md="4">
@@ -239,13 +240,8 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="12">
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
-            <p>New section goes here for references</p>
+          <Col md="12" className="videoPlayer-Jumbotron">
+            <VideoPlayer />
           </Col>
         </Row>
         <Row>
