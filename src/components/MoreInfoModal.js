@@ -75,6 +75,7 @@ class MoreInfoModal extends Component {
               method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
+              form-name="contact-test"
             >
               <input type="hidden" name="bot-field" />
               <div className="field half first">
