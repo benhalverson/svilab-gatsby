@@ -11,6 +11,7 @@ import {
   Col
 } from 'reactstrap';
 import Axios from 'axios';
+import NetlifyForm from 'react-netlify-form';
 
 class MoreInfoModal extends Component {
   constructor(props) {
@@ -70,7 +71,28 @@ class MoreInfoModal extends Component {
             Yes! Send me info on Corporate Innovation
           </ModalHeader>
           <ModalBody>
-            <form
+            <NetlifyForm name="Contact Form">
+              {({ loading, error, success }) => (
+                <div>
+                  {loading && <div>Loading...</div>}
+                  {error && (
+                    <div>
+                      Your information was not sent. Please try again later.
+                    </div>
+                  )}
+                  {success && <div>Thank you for contacting us!</div>}
+                  {!loading && !success && (
+                    <div>
+                      <input type="text" name="Name" required />
+                      <textarea name="Message" required />
+                      <button>Submit</button>
+                    </div>
+                  )}
+                </div>
+              )}
+            </NetlifyForm>
+
+            {/* <form
               name="contact"
               method="post"
               data-netlify="true"
@@ -103,7 +125,7 @@ class MoreInfoModal extends Component {
                   <input type="reset" value="Clear" />
                 </li>
               </ul>
-            </form>
+            </form> */}
           </ModalBody>
         </Modal>
       </div>
