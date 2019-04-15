@@ -1,17 +1,7 @@
 import React, { Component } from 'react';
-import {
-  Button,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Col
-} from 'reactstrap';
-import Axios from 'axios';
-import NetlifyForm from 'react-netlify-form';
+import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+// import Axios from 'axios';
+// import NetlifyForm from 'react-netlify-form';
 
 class MoreInfoModal extends Component {
   constructor(props) {
@@ -28,18 +18,18 @@ class MoreInfoModal extends Component {
   };
 
   submit_form = () => {
-    check_webtolead_fields();
+    this.check_webtolead_fields();
   };
 
   check_webtolead_fields = () => {
     if (document.getElementById('bool_id') != null) {
-      var reqs = document.getElementById('bool_id').value;
-      bools = reqs.substring(0, reqs.lastIndexOf(';'));
-      var bool_fields = new Array();
-      var bool_fields = bools.split(';');
-      nbr_fields = bool_fields.length;
+      const reqs = document.getElementById('bool_id').value;
+      const bools = reqs.substring(0, reqs.lastIndexOf(';'));
+      let bool_fields = [];
+      bool_fields = bools.split(';');
+      const nbr_fields = bool_fields.length;
       for (var i = 0; i < nbr_fields; i++) {
-        if (document.getElementById(bool_fields[i]).value == 'on') {
+        if (document.getElementById(bool_fields[i]).value === 'on') {
           document.getElementById(bool_fields[i]).value = 1;
         } else {
           document.getElementById(bool_fields[i]).value = 0;
@@ -75,8 +65,15 @@ class MoreInfoModal extends Component {
             >
               <div class="row">
                 <div class="col">
-                  <label>First Name: </label>
-                  <input name="first_name" id="first_name" type="text" />
+                  <label>
+                    First Name: <span class="required">*</span>
+                  </label>
+                  <input
+                    name="first_name"
+                    id="first_name"
+                    type="text"
+                    required
+                  />
                 </div>
               </div>
               <div class="row">
@@ -84,18 +81,13 @@ class MoreInfoModal extends Component {
                   <label>
                     Last Name: <span class="required">*</span>
                   </label>
-                  <input
-                    name="last_name"
-                    id="last_name"
-                    type="text"
-                    required=""
-                  />
+                  <input name="last_name" id="last_name" type="text" required />
                 </div>
               </div>
               <div class="row">
                 <div class="col">
                   <label>Email Address: </label>
-                  <input name="email1" id="email1" type="email" />
+                  <input name="email1" id="email1" type="email" required />
                 </div>
               </div>
               <div class="row center buttons">
@@ -112,13 +104,13 @@ class MoreInfoModal extends Component {
                 id="campaign_id"
                 type="hidden"
                 value="f6b90821-2902-e64d-3059-5cb3de42aab4"
-              />{' '}
+              />
               <input
                 name="assigned_user_id"
                 id="assigned_user_id"
                 type="hidden"
                 value="1"
-              />{' '}
+              />
               <input
                 name="moduleDir"
                 id="moduleDir"
