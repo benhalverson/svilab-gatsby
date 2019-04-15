@@ -3,7 +3,7 @@ import './index.css';
 
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Link, animateScroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { Link as GLink } from 'gatsby';
 import Layout from '../components/layout';
 
