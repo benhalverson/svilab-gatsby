@@ -13,9 +13,11 @@ import {
 import logo from '../images/logo-left.png';
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
+
+  props = this.props;
 
   state = {
     collapsed: true
@@ -28,7 +30,12 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" sticky="top" light className="navbar navbar-expand-lg navbar-light bg-light">
+        <Navbar
+          color="faded"
+          sticky="top"
+          light
+          className="navbar navbar-expand-lg navbar-light bg-light"
+        >
           <NavbarBrand href="/" className="mr-auto">
             <img src={logo} alt="logo for sv-ilab" width="200" />
           </NavbarBrand>
