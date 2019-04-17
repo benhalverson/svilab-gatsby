@@ -114,13 +114,7 @@ export default class InnovationPrograms extends Component {
               <p>E-mail us to discuss your goals! </p>
             </div>
             <div>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <MoreInfoModal buttonLabel={buttonLabelText} />
             </div>
 
             <h1 className="display-5">Keynotes</h1>
