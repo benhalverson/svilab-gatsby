@@ -2,6 +2,8 @@ import './innovationPrograms.css';
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import MoreInfoModal from './MoreInfoModal';
+import KeynotesModal from './KeynotesFormModal';
+import ConsultingFormModal from './ConsultingFormModal';
 
 export default class InnovationPrograms extends Component {
   render() {
@@ -114,7 +116,7 @@ export default class InnovationPrograms extends Component {
               <p>E-mail us to discuss your goals! </p>
             </div>
             <div>
-              <MoreInfoModal buttonLabel={buttonLabelText} />
+              <ConsultingFormModal buttonLabel={buttonLabelText} />
             </div>
 
             <h1 className="display-5">Keynotes</h1>
@@ -137,13 +139,7 @@ export default class InnovationPrograms extends Component {
               </ul>
             </div>
             <div>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <KeynotesModal buttonLabel={buttonLabelText} />
             </div>
 
             <h1 className="display-5">Roundtables and Panels</h1>

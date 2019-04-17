@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 
-class ConsultingFormModal extends Component {
+class KeynotesModal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -48,7 +48,7 @@ class ConsultingFormModal extends Component {
           className={this.props.className}
         >
           <ModalHeader toggle={this.toggle}>
-            Yes! Send me info on Consulting
+            Yes! Send me info on Keynotes
           </ModalHeader>
           <ModalBody>
             <script
@@ -101,32 +101,20 @@ class ConsultingFormModal extends Component {
                 name="campaign_id"
                 id="campaign_id"
                 type="hidden"
-                value="e2027caf-eb48-dfd4-22dc-5cb6a5535392"
-              />
+                value="bc303295-5ada-ab1d-0ccf-5cb6ba674bb1"
+              />{' '}
               <input
                 name="redirect_url"
                 id="redirect_url"
                 type="hidden"
                 value="http://svilab.com"
-              />
+              />{' '}
               <input
                 name="assigned_user_id"
                 id="assigned_user_id"
                 type="hidden"
                 value="3907b44e-a4de-3e08-eb08-5b14a2f4254f"
-              />
-              <input
-                name="moduleDir"
-                id="moduleDir"
-                type="hidden"
-                value="Leads"
-              />
-              <input
-                name="assigned_user_id"
-                id="assigned_user_id"
-                type="hidden"
-                value="1"
-              />
+              />{' '}
               <input
                 name="moduleDir"
                 id="moduleDir"
@@ -141,4 +129,4 @@ class ConsultingFormModal extends Component {
   }
 }
 
-export default ConsultingFormModal;
+export default KeynotesModal;
