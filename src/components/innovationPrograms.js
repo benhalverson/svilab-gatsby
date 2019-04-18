@@ -2,6 +2,10 @@ import './innovationPrograms.css';
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import MoreInfoModal from './MoreInfoModal';
+import KeynotesModal from './KeynotesFormModal';
+import ConsultingFormModal from './ConsultingFormModal';
+import WomanLeadership from './WomanLeadershipFormModal';
+import RoundtablePanelsFormModal from './RoundtablePanelsFormModal';
 
 export default class InnovationPrograms extends Component {
   render() {
@@ -114,13 +118,7 @@ export default class InnovationPrograms extends Component {
               <p>E-mail us to discuss your goals! </p>
             </div>
             <div>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <ConsultingFormModal buttonLabel={buttonLabelText} />
             </div>
 
             <h1 className="display-5">Keynotes</h1>
@@ -143,13 +141,7 @@ export default class InnovationPrograms extends Component {
               </ul>
             </div>
             <div>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <KeynotesModal buttonLabel={buttonLabelText} />
             </div>
 
             <h1 className="display-5">Roundtables and Panels</h1>
@@ -173,13 +165,7 @@ export default class InnovationPrograms extends Component {
                 <li>Going international</li>
                 <li>Building credibility selling to Enterprises</li>
               </ul>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <RoundtablePanelsFormModal buttonLabel={buttonLabelText} />
             </div>
 
             <h1 className="display-5">Women in Leadership</h1>
@@ -190,6 +176,7 @@ export default class InnovationPrograms extends Component {
                 add new skills to build out their effective message.
               </p>
               <strong>Outcomes</strong>
+
               <ul>
                 <li>
                   Participants will be able to make more effective presentations
@@ -209,13 +196,7 @@ export default class InnovationPrograms extends Component {
                 Workshops range from 2 hours to half day, to 1 or 2 days in
                 duration.
               </p>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <WomanLeadership buttonLabel={buttonLabelText} />
             </div>
           </div>
         </Col>

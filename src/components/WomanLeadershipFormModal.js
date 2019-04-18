@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 
-class MoreInfoModal extends Component {
+class WomanLeadership extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -48,7 +48,7 @@ class MoreInfoModal extends Component {
           className={this.props.className}
         >
           <ModalHeader toggle={this.toggle}>
-            Yes! Send me info on Corporate Innovation
+            Yes! Send me info on Woman Leadership
           </ModalHeader>
           <ModalBody>
             <script
@@ -61,10 +61,10 @@ class MoreInfoModal extends Component {
               method="POST"
               name="WebToLeadForm"
             >
-              <div class="row">
-                <div class="col">
+              <div className="row">
+                <div className="col">
                   <label>
-                    First Name: <span class="required">*</span>
+                    First Name: <span className="required">*</span>
                   </label>
                   <input
                     name="first_name"
@@ -74,23 +74,23 @@ class MoreInfoModal extends Component {
                   />
                 </div>
               </div>
-              <div class="row">
-                <div class="col">
+              <div className="row">
+                <div className="col">
                   <label>
-                    Last Name: <span class="required">*</span>
+                    Last Name: <span className="required">*</span>
                   </label>
                   <input name="last_name" id="last_name" type="text" required />
                 </div>
               </div>
-              <div class="row">
-                <div class="col">
+              <div className="row">
+                <div className="col">
                   <label>Email Address: </label>
                   <input name="email1" id="email1" type="email" required />
                 </div>
               </div>
-              <div class="row center buttons">
+              <div className="row center buttons">
                 <input
-                  class="button"
+                  className="button"
                   name="Submit"
                   type="submit"
                   value="Submit"
@@ -101,7 +101,13 @@ class MoreInfoModal extends Component {
                 name="campaign_id"
                 id="campaign_id"
                 type="hidden"
-                value="f6b90821-2902-e64d-3059-5cb3de42aab4"
+                value="35e02d9d-13c5-a3c4-782d-5cb8102d0d66"
+              />
+              <input
+                name="redirect_url"
+                id="redirect_url"
+                type="hidden"
+                value="http://svilab.com"
               />
               <input
                 name="assigned_user_id"
@@ -123,4 +129,4 @@ class MoreInfoModal extends Component {
   }
 }
 
-export default MoreInfoModal;
+export default WomanLeadership;
