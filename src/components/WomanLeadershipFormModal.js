@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
 
-class KeynotesModal extends Component {
+class WomanLeadership extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -48,7 +48,7 @@ class KeynotesModal extends Component {
           className={this.props.className}
         >
           <ModalHeader toggle={this.toggle}>
-            Yes! Send me info on Keynotes
+            Yes! Send me info on Woman Leadership
           </ModalHeader>
           <ModalBody>
             <script
@@ -101,7 +101,7 @@ class KeynotesModal extends Component {
                 name="campaign_id"
                 id="campaign_id"
                 type="hidden"
-                value="3fd10ff8-ca67-af4b-81fd-5cb80d03917c"
+                value="35e02d9d-13c5-a3c4-782d-5cb8102d0d66"
               />
               <input
                 name="redirect_url"
@@ -113,7 +113,7 @@ class KeynotesModal extends Component {
                 name="assigned_user_id"
                 id="assigned_user_id"
                 type="hidden"
-                value="3907b44e-a4de-3e08-eb08-5b14a2f4254f"
+                value="1"
               />
               <input
                 name="moduleDir"
@@ -129,4 +129,4 @@ class KeynotesModal extends Component {
   }
 }
 
-export default KeynotesModal;
+export default WomanLeadership;
