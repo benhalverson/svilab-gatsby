@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "jest": "24.8.0",
-    "netlify-lambda": "1.4.3",
+    "netlify-lambda": "1.4.9",
     "nodemon": "1.18.10",
     "prettier": "1.16.4",
     "react-test-renderer": "16.8.4"
