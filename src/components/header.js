@@ -13,10 +13,6 @@ import {
 import logo from '../images/logo-left.png';
 
 class Header extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   props = this.props;
 
   state = {
