@@ -13,10 +13,6 @@ import {
 import logo from '../images/logo-left.png';
 
 class Header extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
   props = this.props;
 
   state = {
@@ -46,10 +42,7 @@ class Header extends React.Component {
                 <NavLink href="/about">About</NavLink>
               </NavItem>
               <NavItem>
-                {/* <NavLink href="/contact">
-                  Contact
-                </NavLink> */}
-                {/* Hide contact page until a proper form is made */}
+                <NavLink href="/contact">Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

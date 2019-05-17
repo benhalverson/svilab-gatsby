@@ -1,0 +1,13 @@
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 766px;
+    margin: 1.75rem auto;
+  }
+  .width {
+    width: 80%;
+  }
+  .button__position {
+    position: relative;
+    left: 20rem;
+  }
+}

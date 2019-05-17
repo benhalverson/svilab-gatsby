@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-scroll';
 import { Link as GLink } from 'gatsby';
 import Layout from '../components/layout';
+import { CookieBanner } from '@palmabit/react-cookie-law';
 
 import SEO from '../components/seo';
 import Videobackground from './videobackground';
@@ -252,6 +253,13 @@ const IndexPage = () => (
           </Col>
         </Row>
       </Layout>
+      <CookieBanner
+        message="Nom nom nom accept the cookies please"
+        onAccept = {() => {}}
+        onAcceptPreferences = {() => {}}
+        onAcceptStatistics = {() => {}}
+        onAcceptMarketing = {() => {}}
+      />
     </Container>
   </Fragment>
 );
