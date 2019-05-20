@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
-
+import HowToPitchModal from './HowToPitchModal';
 function HowToPitch() {
+  const buttonLabelText = `Send more info`;
   return (
     <Fragment>
       <Button id="Howtopitch">Pitch to Investors</Button>
@@ -73,7 +74,8 @@ function HowToPitch() {
                 </li>
                 <li>
                   Realize the importance of credibility and being realistic
-                  while building a vision for the future.
+                  while buildiimport HowToPitchModal from './HowToPitchModal';
+                  ng a vision for the future.
                 </li>
                 <li>Understand and speak to the investors point of view. </li>
 
@@ -202,13 +204,7 @@ function HowToPitch() {
                 <li>Slide template - what to show</li>
                 <li>Sideology - make slides simple and impactful</li>
               </ul>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <HowToPitchModal buttonLabel={buttonLabelText} />
             </div>
           </CardBody>
         </Card>

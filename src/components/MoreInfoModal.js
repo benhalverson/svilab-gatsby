@@ -81,7 +81,7 @@ class MoreInfoModal extends Component {
             >
               <FormGroup row>
                 <Label for="first_name" sm={2}>
-                  First Name: <span className="required">*</span>
+                  First Name:
                 </Label>
                 <Col sm={10}>
                   <Input
@@ -96,7 +96,7 @@ class MoreInfoModal extends Component {
 
               <FormGroup row>
                 <Label for="last_name" sm={2}>
-                  Last Name: <span className="required">*</span>
+                  Last Name:
                 </Label>
                 <Col sm={10}>
                   <Input
@@ -111,7 +111,7 @@ class MoreInfoModal extends Component {
 
               <FormGroup row>
                 <Label for="email1" sm={2}>
-                  Email: <span className="required">*</span>
+                  Email:
                 </Label>
                 <Col sm={10}>
                   <Input

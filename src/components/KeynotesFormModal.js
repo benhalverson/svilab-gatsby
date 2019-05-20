@@ -1,5 +1,16 @@
 import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import {
+  Button,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  Form,
+  FormGroup,
+  Label,
+  Col,
+  Input,
+  Row
+} from 'reactstrap';
 
 class KeynotesModal extends Component {
   constructor(props) {
@@ -35,7 +46,13 @@ class KeynotesModal extends Component {
       }
     }
   };
-
+  componentDidMount() {
+    const script = document.createElement('script');
+    script.src = `src="http://www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw`;
+    script.type = 'text/javascript';
+    script.async = true;
+    document.body.appendChild(script);
+  }
   render() {
     return (
       <div>
@@ -51,52 +68,73 @@ class KeynotesModal extends Component {
             Yes! Send me info on Keynotes
           </ModalHeader>
           <ModalBody>
-            <script
-              type="text/javascript"
-              src="http://www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw"
-            />
-            <form
+            <Form
               id="WebToLeadForm"
               action="http://www.svilab.com/crm/index.php?entryPoint=WebToPersonCapture"
               method="POST"
               name="WebToLeadForm"
             >
-              <div className="row">
-                <div className="col">
-                  <label>
-                    First Name: <span className="required">*</span>
-                  </label>
-                  <input
+              <FormGroup row>
+                <Label for="first_name" sm={2}>
+                  First Name:
+                </Label>
+                <Col sm={10}>
+                  <Input
                     name="first_name"
                     id="first_name"
                     type="text"
                     required
+                    className="width"
                   />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col">
-                  <label>
-                    Last Name: <span className="required">*</span>
-                  </label>
-                  <input name="last_name" id="last_name" type="text" required />
-                </div>
-              </div>
-              <div className="row">
-                <div className="col">
-                  <label>Email Address: </label>
-                  <input name="email1" id="email1" type="email" required />
-                </div>
-              </div>
-              <div className="row center buttons">
-                <input
-                  className="button"
-                  name="Submit"
-                  type="submit"
-                  value="Submit"
-                  onclick="submit_form();"
-                />
-              </div>
+                </Col>
+              </FormGroup>
+
+              <FormGroup row>
+                <Label for="last_name" sm={2}>
+                  Last Name:
+                </Label>
+                <Col sm={10}>
+                  <Input
+                    name="last_name"
+                    id="last_name"
+                    type="text"
+                    required
+                    className="width"
+                  />
+                </Col>
+              </FormGroup>
+
+              <FormGroup row>
+                <Label for="email1" sm={2}>
+                  Email:
+                </Label>
+                <Col sm={10}>
+                  <Input
+                    name="email1"
+                    id="email1"
+                    type="email"
+                    required
+                    className="width"
+                  />
+                </Col>
+              </FormGroup>
+
+              <FormGroup row>
+                <Row>
+                  <Col>
+                    <Button
+                      color="primary"
+                      className="button__position"
+                      name="Submit"
+                      type="submit"
+                      value="Submit"
+                      onClick={this.submit_form}
+                    >
+                      Submit
+                    </Button>
+                  </Col>
+                </Row>
+              </FormGroup>
               <input
                 name="campaign_id"
                 id="campaign_id"
@@ -121,7 +159,7 @@ class KeynotesModal extends Component {
                 type="hidden"
                 value="Leads"
               />
-            </form>
+            </Form>
           </ModalBody>
         </Modal>
       </div>

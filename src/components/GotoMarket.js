@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+import GoToMarketModal from './GotoMarketModal';
 
 function HowToPitch() {
+  const buttonLabelText = `Send more info`;
   return (
     <Fragment>
       <Button id="GotoMarket">
@@ -155,13 +157,7 @@ function HowToPitch() {
                 <li>How to demo your product</li>
                 <li>Answering objections</li>
               </ul>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <GoToMarketModal buttonLabel={buttonLabelText} />
             </div>
           </CardBody>
         </Card>

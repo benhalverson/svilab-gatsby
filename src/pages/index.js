@@ -12,7 +12,7 @@ import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import StartupLogos from '../components/startupLogos';
-import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
+// import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -241,24 +241,17 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="12" className="videoPlayer-Jumbotron">
-            <VideoPlayer />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <div>
-              <StartupLogos />
-            </div>
+          <Col md="12" class="startup--logos">
+            <StartupLogos />
           </Col>
         </Row>
       </Layout>
       <CookieBanner
         message="Nom nom nom accept the cookies please"
-        onAccept = {() => {}}
-        onAcceptPreferences = {() => {}}
-        onAcceptStatistics = {() => {}}
-        onAcceptMarketing = {() => {}}
+        onAccept={() => {}}
+        onAcceptPreferences={() => {}}
+        onAcceptStatistics={() => {}}
+        onAcceptMarketing={() => {}}
       />
     </Container>
   </Fragment>
