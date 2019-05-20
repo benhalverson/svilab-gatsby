@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+import StoryModal from './StoryModal';
 
 function Story() {
+  const buttonLabelText = `Send more info`;
   return (
     <Fragment>
-      <Button id="story">How to craft and tell your story for impact.</Button>
+      <Button id="story">How to craft and tell your story for impact</Button>
       <UncontrolledCollapse toggler="#story">
         <Card>
           <CardBody>
@@ -62,13 +64,7 @@ function Story() {
               <li>Engage the listener - why should they care?</li>
               <li>Have a point to the story - what is the outcome you want?</li>
             </ul>
-            <a
-              className="btn btn-primary btn-lg"
-              href="/gotomarket"
-              role="button"
-            >
-              Send more info
-            </a>
+            <StoryModal buttonLabel={buttonLabelText} />
           </CardBody>
         </Card>
       </UncontrolledCollapse>

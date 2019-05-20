@@ -12,7 +12,7 @@ import {
   Row
 } from 'reactstrap';
 
-class RoundtablePanelsFormModal extends Component {
+class GoToMarketModal extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -46,6 +46,7 @@ class RoundtablePanelsFormModal extends Component {
       }
     }
   };
+
   componentDidMount() {
     const script = document.createElement('script');
     script.src = `src="http://www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw`;
@@ -65,7 +66,7 @@ class RoundtablePanelsFormModal extends Component {
           className={this.props.className}
         >
           <ModalHeader toggle={this.toggle}>
-            Yes! Send me info on Roundtables and Panels
+            Yes! Send me info on pitching to investors
           </ModalHeader>
           <ModalBody>
             <Form
@@ -135,11 +136,14 @@ class RoundtablePanelsFormModal extends Component {
                   </Col>
                 </Row>
               </FormGroup>
-              <input
+              {/*
+              replace with a hidden values
+              
+               <input
                 name="campaign_id"
                 id="campaign_id"
                 type="hidden"
-                value="bc303295-5ada-ab1d-0ccf-5cb6ba674bb1"
+                value="35e02d9d-13c5-a3c4-782d-5cb8102d0d66"
               />
               <input
                 name="redirect_url"
@@ -151,14 +155,14 @@ class RoundtablePanelsFormModal extends Component {
                 name="assigned_user_id"
                 id="assigned_user_id"
                 type="hidden"
-                value="3907b44e-a4de-3e08-eb08-5b14a2f4254f"
+                value="1"
               />
               <input
                 name="moduleDir"
                 id="moduleDir"
                 type="hidden"
                 value="Leads"
-              />
+              /> */}
             </Form>
           </ModalBody>
         </Modal>
@@ -167,4 +171,4 @@ class RoundtablePanelsFormModal extends Component {
   }
 }
 
-export default RoundtablePanelsFormModal;
+export default GoToMarketModal;

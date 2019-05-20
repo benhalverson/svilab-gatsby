@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Form, Text, Scope } from 'informed';
+// import { Form, Text, Scope } from 'informed';
 
 export default class ContactForm extends Component {
   constructor(props) {
