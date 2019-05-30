@@ -55,7 +55,7 @@ const IndexPage = () => (
                       Corporates
                       <br />
                       <br />
-                      Learn How AI, Blockchain, IoT & more Helps your Business.
+                      Learn How AI, Blockchain, IoT & More Helps your Business!
                     </h5>
                     <div className="white-text small-text">
                       License, Acquire or Innovate & Go-to-Market
@@ -182,7 +182,7 @@ const IndexPage = () => (
                       Family Offices
                     </h5>
                     <p className="white-text small-text">
-                      Increase Startup Revenue & Valuation
+                      Increase Startup Revenue & Valuation!
                     </p>
                     <div className="white-text small-text">
                       Learn Investing in Startups,
