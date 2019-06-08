@@ -169,7 +169,8 @@ const IndexPage = () => (
                     Family Offices
                   </h5>
                   <p className="white-text small-text">
-                    Investing in Tech? Are Startup Revenues too Low?
+                    Investing in Tech?
+                    <br /> Are Startup Revenues too Low?
                   </p>
                 </div>
               </div>
