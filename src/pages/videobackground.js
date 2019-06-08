@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../components/video.css';
-import webvideo from '../videos/WebVid.mp4';
+import webvideo from '../videos/Web.mp4';
 class Videobackground extends Component {
   render() {
     return (
