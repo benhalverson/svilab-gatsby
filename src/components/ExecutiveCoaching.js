@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+import ExecutiveCoachingModal from './ExecutiveCoachingModal';
 
 function ExecutiveCoaching() {
+  const buttonLabelText = `Send more info`;
   return (
     <Fragment>
       <Button id="ExecutiveCoaching">Operations and Executive Coaching</Button>
@@ -33,13 +35,8 @@ function ExecutiveCoaching() {
                 <li>Corporate etiquette and body language for leaders </li>
                 <li>Corporate governance and working with stakeholders</li>
               </ul>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <ExecutiveCoachingModal buttonLabel={buttonLabelText} />
+              {/* crm needs to be setup for ExecutiveCoachingModal modal */}
             </div>
           </CardBody>
         </Card>

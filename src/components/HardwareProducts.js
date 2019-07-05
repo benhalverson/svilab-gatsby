@@ -1,19 +1,19 @@
 import React, { Fragment } from 'react';
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
-
+import HardwareProductsModal from './HardwareProductsModal';
 function HardwareProducts() {
+  const buttonLabelText = `Send more info`;
   return (
     <Fragment>
       <Button id="HarwareProducts">
-        Taking Harware and IoT Products to Market
+        Taking Hardware and IoT Products to Market
       </Button>
       <UncontrolledCollapse toggler="#HarwareProducts">
         <Card>
           <CardBody>
             <div className="card-body">
-              <strong>Objective</strong>
-              Objective Make an effective plan to launch your hardware and IoT
-              product to customers and grow revenue.
+              <strong>Objective</strong> make an effective plan to launch your
+              hardware and IoT product to customers and grow revenue.
               <strong>Duration</strong>
               <ul>
                 <li>
@@ -72,13 +72,8 @@ function HardwareProducts() {
                 <li>Make customer video demos – show off!</li>
                 <li>Make a product data sheet. Freeze the product </li>
               </ul>
-              <a
-                className="btn btn-primary btn-lg"
-                href="/gotomarket"
-                role="button"
-              >
-                Send more info
-              </a>
+              <HardwareProductsModal buttonLabel={buttonLabelText} />
+              {/* crm needs to be setup for hardwareproduct modal */}
             </div>
           </CardBody>
         </Card>
