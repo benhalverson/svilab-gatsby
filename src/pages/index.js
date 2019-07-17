@@ -54,12 +54,13 @@ const IndexPage = () => (
                     <h5 className="card-title card-title--yellow card-title-spacing">
                       Startups
                       <br />
-                      Grow Customers, Revenue & Valuation!
+                      Grow Revenue & Valuation!
                     </h5>
                     <div className="white-text small-text">
-                      Learn Go-to-Market, <br />
-                      B2B Sales & <br /> Pitch-to-Investors.
-                      <br /> Get temp VP of Sales / COO
+                      Pitch-to-Investors. <br />
+                      Go-to-Market, B2B Sales, <br />
+                      Growth Hacking <br />
+                      Get temp VP of Sales
                     </div>
                     <GLink
                       to="/programsOffered"
@@ -97,7 +98,7 @@ const IndexPage = () => (
                     </p>
                     <div className="white-text small-text">
                       Learn B2B Sales, <br />
-                      Go-to-Market & <br /> How to Pitch to Investors
+                      Go-to-Market & <br /> How to Pitch-to-Investors
                     </div>
                     <GLink
                       to="/programsOffered"
@@ -121,7 +122,10 @@ const IndexPage = () => (
                   </h5>
                   <p className="white-text small-text">
                     Investing in Tech?
-                    <br /> Are Startup Revenues too Low?
+                    <br />
+                    Need Dealflow?
+                    <br />
+                    Are Startup Revenues too Low?
                   </p>
                 </div>
               </div>
