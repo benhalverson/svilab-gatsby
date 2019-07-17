@@ -71,7 +71,6 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
-          <Col md="3" xs="12"></Col>
           <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front accelerators-color">
@@ -169,7 +168,8 @@ const IndexPage = () => (
                 </div>
               </div>
             </div>
-
+          </Col>
+          <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front corporate-color">
                 <div className="inner">
