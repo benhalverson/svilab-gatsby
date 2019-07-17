@@ -39,45 +39,6 @@ const IndexPage = () => (
         <Row>
           <Col md="3" xs="12">
             <div className="flipper-container">
-              <div className="front corporate-color">
-                <div className="inner">
-                  <h5 className="card-title card-title--yellow card-title-spacing">
-                    Corporates
-                  </h5>
-                  <p className="white-text small-text">Ready to Disrupt?</p>
-                  <div className="hidden-div" />
-                </div>
-              </div>
-              <div className="back corporate-color">
-                <div className="inner">
-                  <div>
-                    <h5 className="card-title card-title--yellow card-title-spacing">
-                      Corporates
-                      <br />
-                      <br />
-                      Learn How AI, Blockchain, IoT & More Helps your Business!
-                    </h5>
-                    <div className="white-text small-text">
-                      License, Acquire or Innovate & Go-to-Market
-                    </div>
-                    <Link
-                      activeClass="active"
-                      to="corporateInnovation"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      className="btn btn-primary yellow-button"
-                    >
-                      Learn More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Col>
-          <Col md="3" xs="12">
-            <div className="flipper-container">
               <div className="front startups-color">
                 <div className="inner ">
                   <h5 className="card-title card-title--yellow card-title-spacing">
@@ -110,6 +71,7 @@ const IndexPage = () => (
               </div>
             </div>
           </Col>
+          <Col md="3" xs="12"></Col>
           <Col md="3" xs="12">
             <div className="flipper-container">
               <div className="front accelerators-color">
@@ -203,6 +165,44 @@ const IndexPage = () => (
                     </Link>
 
                     {/* TODO create an investors page to link to */}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flipper-container">
+              <div className="front corporate-color">
+                <div className="inner">
+                  <h5 className="card-title card-title--yellow card-title-spacing">
+                    Corporates
+                  </h5>
+                  <p className="white-text small-text">Ready to Disrupt?</p>
+                  <div className="hidden-div" />
+                </div>
+              </div>
+              <div className="back corporate-color">
+                <div className="inner">
+                  <div>
+                    <h5 className="card-title card-title--yellow card-title-spacing">
+                      Corporates
+                      <br />
+                      <br />
+                      Learn How AI, Blockchain, IoT & More Helps your Business!
+                    </h5>
+                    <div className="white-text small-text">
+                      License, Acquire or Innovate & Go-to-Market
+                    </div>
+                    <Link
+                      activeClass="active"
+                      to="corporateInnovation"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      className="btn btn-primary yellow-button"
+                    >
+                      Learn More
+                    </Link>
                   </div>
                 </div>
               </div>
