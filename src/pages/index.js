@@ -42,7 +42,8 @@ const IndexPage = () => (
               <div className="front startups-color">
                 <div className="inner ">
                   <h5 className="card-title card-title--yellow card-title-spacing">
-                    Startups
+                    Startups, <br />
+                    Sales & Growth Hacking
                   </h5>
                   <p className="white-text small-text">Ready to Scale?</p>
                 </div>
@@ -98,17 +99,6 @@ const IndexPage = () => (
                       Learn B2B Sales, <br />
                       Go-to-Market & <br /> How to Pitch to Investors
                     </div>
-                    {/* <Link
-                      activeClass="active"
-                      to="startups-accelerators"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      className="btn btn-primary yellow-button"
-                    >
-                      Learn More
-                    </Link> */}
                     <GLink
                       to="/programsOffered"
                       className="btn btn-primary yellow-button"
