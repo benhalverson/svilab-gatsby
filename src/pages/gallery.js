@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import './flipper.css';
+import Gallery from 'react-photo-gallery';
+import { photos } from '../components/photos';
 
-class Flipper extends Component {
+class PhotoGallery extends Component {
   render() {
-    return <div>Gallery goes here...</div>;
+    return (
+      <div>
+        <Gallery photos={photos} />
+      </div>
+    );
   }
 }
 
-export default Flipper;
+export default PhotoGallery;
