@@ -50,7 +50,7 @@ class MoreInfoModal extends Component {
     const script = document.createElement('script');
 
     script.src =
-      'http://www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw';
+      '//www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw';
 
     script.type = 'text/javascript';
     script.async = true;
