@@ -49,7 +49,7 @@ class StoryModal extends Component {
 
   componentDidMount() {
     const script = document.createElement('script');
-    script.src = `src="http://www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw`;
+    script.src = `//www.svilab.com/crm/cache/include/javascript/sugar_grp1.js?v=eCnBdPO8WsrXBLnPjljGCw`;
     script.type = 'text/javascript';
     script.async = true;
     document.body.appendChild(script);
