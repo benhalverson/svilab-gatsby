@@ -1,0 +1,39 @@
+.left-spacing {
+  padding-top: 25px;
+}
+
+.right-spacing {
+  padding-bottom: 20px;
+}
+.card {
+  border-radius: 0;
+  background-color: '#1057c2';
+}
+
+.card-title {
+  font-size: 20px;
+  font-family: trade-gothic, proxima-nova, sans-serif;
+  font-style: normal;
+  color: yellow;
+  font-weight: bold;
+  padding-top: 10px;
+  line-height: 1.2;
+}
+
+.orange-button {
+  border-radius: 57px;
+  width: 201px;
+  background-color: #ffc900;
+}
+
+.icons {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.free {
+  /* position: relative;
+  top: 10px;
+  right: 25px; */
+  width: 80px;
+}
