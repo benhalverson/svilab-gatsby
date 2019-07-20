@@ -11,11 +11,12 @@ import { CookieBanner } from '@palmabit/react-cookie-law';
 import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
-import StartupLogos from '../components/startupLogos';
+// import StartupLogos from '../components/startupLogos';
 
 // import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 import Pitching from '../components/pitching';
 import Bar from '../components/bar';
+import Sales from '../components/sales';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -65,12 +66,18 @@ const IndexPage = () => (
                       Growth Hacking <br />
                       Get temp VP of Sales
                     </div>
-                    <GLink
-                      to="/page2"
+
+                    <Link
+                      activeClass="active"
+                      to="pitching"
+                      spy={true}
+                      smooth={true}
+                      offset={-20}
+                      duration={500}
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
-                    </GLink>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -146,7 +153,7 @@ const IndexPage = () => (
                     <div className="white-text small-text">
                       Learn Investing in Startups,
                       <br />
-                      Get Sales / Operations Help for your Startups
+                      Get Sales Help
                     </div>
                     <Link
                       activeClass="active"
@@ -211,11 +218,7 @@ const IndexPage = () => (
 
         <Pitching />
 
-        <Row>
-          <Col>
-            <p>Sales section goes here</p>
-          </Col>
-        </Row>
+        <Sales />
 
         <Row>
           <Col>
@@ -235,7 +238,9 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col>{/* <InnovationPrograms id="corporateInnovation" /> */}</Col>
+          <Col>
+            <InnovationPrograms />
+          </Col>
         </Row>
         <Row>
           <Col md="12" class="startup--logos">

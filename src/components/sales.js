@@ -15,16 +15,16 @@ import free from '../images/free-red.png';
 import preso from '../images/presentation.png';
 import timer from '../images/timer.png';
 import './pitching.css';
-class Pitching extends Component {
+class Sales extends Component {
   render() {
     return (
       <>
-        <Row id="pitching">
+        <Row>
           <Col>
-            <h1 style={{ color: 'black' }}>How To Pitch</h1>
+            <h1 style={{ color: 'black' }}>B2B Sales .....</h1>
           </Col>
         </Row>
-        <Row>
+        <Row id="sales">
           <Col>
             <div>
               <Card>
@@ -38,9 +38,9 @@ class Pitching extends Component {
                 <CardBody>
                   <Row>
                     <Col lg={9}>
-                      <CardTitle>Make Your 60 Second Elevator Pitch</CardTitle>
+                      <CardTitle>Text 1</CardTitle>
 
-                      <CardText>Make it Simple & Be Understood!</CardText>
+                      <CardText>Text 2</CardText>
                     </Col>
                     <Col lg={3}>
                       <img
@@ -123,4 +123,4 @@ class Pitching extends Component {
   }
 }
 
-export default Pitching;
+export default Sales;
