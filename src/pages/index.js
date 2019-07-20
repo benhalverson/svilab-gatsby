@@ -12,7 +12,10 @@ import SEO from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 import StartupLogos from '../components/startupLogos';
+
 // import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
+import Pitching from '../components/pitching';
+import Bar from '../components/bar';
 const IndexPage = () => (
   <Fragment>
     <Container>
@@ -63,7 +66,7 @@ const IndexPage = () => (
                       Get temp VP of Sales
                     </div>
                     <GLink
-                      to="/programsOffered"
+                      to="/page2"
                       className="btn btn-primary yellow-button"
                     >
                       Learn More
@@ -203,41 +206,40 @@ const IndexPage = () => (
             </div>
           </Col>
         </Row>
+
+        <Bar />
+
+        <Pitching />
+
         <Row>
-          <Col xs="12" md="12" lg="12" xl="12">
-            <div className="jumbotron sub-header">
-              <Row>
-                <Col xs="12" md="4">
-                  <p className="white-text">
-                    We help take your innovation to customers, increase sales
-                    revenue and grow the company – especially B2B - in the US
-                    and globally.
-                  </p>
-                </Col>
-                <Col xs="12" md="4">
-                  <p className="white-text">
-                    We provide workshops, consulting and experts to support your
-                    revenue targets.
-                  </p>
-                </Col>
-                <Col xs="12" md="4">
-                  <p className="white-text">
-                    Our Goal is to get your innovation company to its first $1M
-                    revenue. Then, … more! Rollover the buttons for details.
-                  </p>
-                </Col>
-              </Row>
-            </div>
+          <Col>
+            <p>Sales section goes here</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <p>Accelerator section goes here</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <p>Investors section goes here</p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
+            <p>Corporate section goes here</p>
           </Col>
         </Row>
         <Row>
-          <Col>
-            <InnovationPrograms id="corporateInnovation" />
-          </Col>
+          <Col>{/* <InnovationPrograms id="corporateInnovation" /> */}</Col>
         </Row>
         <Row>
           <Col md="12" class="startup--logos">
-            <StartupLogos />
+            {/* <StartupLogos /> */}
           </Col>
         </Row>
       </Layout>
