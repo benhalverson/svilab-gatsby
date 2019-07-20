@@ -1,0 +1,65 @@
+.left-spacing {
+  padding-top: 25px;
+}
+
+.right-spacing {
+  padding-bottom: 20px;
+}
+.card {
+  border-radius: 0;
+}
+
+.gray-bg-image {
+  background: url('../images/gray-startups-bg.png');
+  background-size: cover;
+}
+
+.light-blue-bg-image {
+  background: url('../images/startups-blue-bg-temp2.png');
+  background-size: cover;
+}
+
+.blue-bg-image {
+  background: url('../images/startups-blue-bg-temp.png');
+  background-size: cover;
+}
+
+.card-title {
+  font-size: 26px;
+  font-family: trade-gothic, proxima-nova, sans-serif;
+  font-style: normal;
+  color: yellow;
+  font-weight: bold;
+  padding-top: 10px;
+  line-height: 1.2;
+}
+
+.card-text {
+  color: #fff;
+  font-size: 20px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.orange-button {
+  border-radius: 57px;
+  width: 201px;
+  background-color: #ffc900;
+}
+
+.icons {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.free {
+  width: 80px;
+}
+
+.thumb {
+  width: 200px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}

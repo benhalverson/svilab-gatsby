@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HowToPitch from '../components/HowToPitch';
+// import HowToPitch from '../components/HowToPitch';
 import Story from '../components/Story';
 import GotoMarket from '../components/GotoMarket';
 import HardwareProducts from '../components/HardwareProducts';
@@ -27,9 +27,7 @@ class ProgramsOffered extends Component {
                   <strong>Programs Offered</strong>
                 </h3>
 
-                <div>
-                  <HowToPitch />
-                </div>
+                <div>{/* <HowToPitch /> */}</div>
                 <div>
                   <Story />
                 </div>
