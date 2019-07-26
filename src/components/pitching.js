@@ -79,7 +79,7 @@ class Pitching extends Component {
                     <Col lg={3}>icons go here....</Col>
                   </Row>
 
-                  <Button className="orange-button">Sign Up For Free</Button>
+                  <Button className="orange-button">Learn More</Button>
                 </CardBody>
               </Card>
             </div>
@@ -97,7 +97,7 @@ class Pitching extends Component {
                     <Col lg={3}>icons go here....</Col>
                   </Row>
 
-                  <Button className="orange-button">Sign Up For Free</Button>
+                  <Button className="orange-button">Learn More</Button>
                 </CardBody>
               </Card>
             </div>
