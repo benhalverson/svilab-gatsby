@@ -18,8 +18,8 @@
     "gatsby-transformer-sharp": "2.3.0",
     "informed": "2.11.10",
     "prop-types": "15.7.2",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
     "react-flipcard": "0.2.1",
     "react-helmet": "5.2.1",
     "react-netlify-form": "2.1.5",
@@ -50,7 +50,7 @@
     "netlify-lambda": "1.6.3",
     "nodemon": "1.19.4",
     "prettier": "1.18.2",
-    "react-test-renderer": "16.10.2"
+    "react-test-renderer": "16.11.0"
   },
   "proxy": {
     "/.netlify/functions": {
