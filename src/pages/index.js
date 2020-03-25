@@ -243,7 +243,7 @@ const IndexPage = () => (
           </Col>
         </Row>
         <Row>
-          <Col md="12" class="startup--logos">
+          <Col md="12" className="startup--logos">
             {/* <StartupLogos /> */}
           </Col>
         </Row>

@@ -69,14 +69,13 @@ class Sales extends Component {
               <Card body className="light-blue-bg-image">
                 <CardBody>
                   <Row>
-                    <Col lg={9}>
+                    <Col lg={12}>
                       <CardTitle>
                         How to Pitch Investors & Successfully Get Funded
                       </CardTitle>
 
                       <CardText>Get Skilled Up & Make it Happen…</CardText>
                     </Col>
-                    <Col lg={3}>icons go here....</Col>
                   </Row>
 
                   <Button className="orange-button">Learn More</Button>
@@ -88,13 +87,12 @@ class Sales extends Component {
               <Card body className="blue-bg-image">
                 <CardBody>
                   <Row>
-                    <Col lg={9}>
+                    <Col lg={12}>
                       <CardTitle>
                         Get Your Pitch Deck Reviewed with Recommendations
                       </CardTitle>
                       <CardText>Save Time & Improve Your Game</CardText>
                     </Col>
-                    <Col lg={3}>icons go here....</Col>
                   </Row>
 
                   <Button className="orange-button">Learn More</Button>
@@ -107,10 +105,18 @@ class Sales extends Component {
                 <CardBody>
                   <Row>
                     <Col>
-                      <img src={thumbnail1} className="thumb" />
+                      <img
+                        src={thumbnail1}
+                        className="thumb"
+                        alt="video testimonal 1"
+                      />
                     </Col>
                     <Col>
-                      <img src={thumbnail2} className="thumb" />
+                      <img
+                        src={thumbnail2}
+                        className="thumb"
+                        alt="video testimonal 1"
+                      />
                     </Col>
                   </Row>
                 </CardBody>

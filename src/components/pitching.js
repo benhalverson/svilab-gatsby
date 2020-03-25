@@ -12,8 +12,6 @@ import steve from '../images/blue-steve.png';
 import thumbnail1 from '../images/video-thumb1.png';
 import thumbnail2 from '../images/video-thumb2.png';
 import free from '../images/free-red.png';
-import preso from '../images/presentation.png';
-import timer from '../images/timer.png';
 import './pitching.css';
 class Pitching extends Component {
   render() {
@@ -37,24 +35,14 @@ class Pitching extends Component {
               <Card body className="gray-bg-image">
                 <CardBody>
                   <Row>
-                    <Col lg={9}>
-                      <CardTitle>Make Your 60 Second Elevator Pitch</CardTitle>
+                    <Col lg={10}>
+                      <CardTitle>
+                        Make Your 60 Second Elevator Pitch In 5-Steps&trade;
+                      </CardTitle>
 
                       <CardText>Make it Simple & Be Understood!</CardText>
                     </Col>
-                    <Col lg={3}>
-                      <img
-                        src={timer}
-                        alt="timer"
-                        width="42"
-                        className="icons"
-                      />
-                      <img
-                        src={preso}
-                        alt="presentation"
-                        width="42"
-                        className="icons"
-                      />
+                    <Col lg={2}>
                       <img src={free} alt="free" className="free" />
                     </Col>
                   </Row>
@@ -69,14 +57,13 @@ class Pitching extends Component {
               <Card body className="light-blue-bg-image">
                 <CardBody>
                   <Row>
-                    <Col lg={9}>
+                    <Col lg={12}>
                       <CardTitle>
                         How to Pitch Investors & Successfully Get Funded
                       </CardTitle>
 
                       <CardText>Get Skilled Up & Make it Happen…</CardText>
                     </Col>
-                    <Col lg={3}>icons go here....</Col>
                   </Row>
 
                   <Button className="orange-button">Learn More</Button>
@@ -88,13 +75,12 @@ class Pitching extends Component {
               <Card body className="blue-bg-image">
                 <CardBody>
                   <Row>
-                    <Col lg={9}>
+                    <Col lg={12}>
                       <CardTitle>
                         Get Your Pitch Deck Reviewed with Recommendations
                       </CardTitle>
                       <CardText>Save Time & Improve Your Game</CardText>
                     </Col>
-                    <Col lg={3}>icons go here....</Col>
                   </Row>
 
                   <Button className="orange-button">Learn More</Button>
@@ -107,10 +93,18 @@ class Pitching extends Component {
                 <CardBody>
                   <Row>
                     <Col>
-                      <img src={thumbnail1} className="thumb" />
+                      <img
+                        src={thumbnail1}
+                        className="thumb"
+                        alt="video testimonal 1"
+                      />
                     </Col>
                     <Col>
-                      <img src={thumbnail2} className="thumb" />
+                      <img
+                        src={thumbnail2}
+                        className="thumb"
+                        alt="video testimonal 1"
+                      />
                     </Col>
                   </Row>
                 </CardBody>
