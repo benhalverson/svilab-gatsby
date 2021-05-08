@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import MoreInfoModal from './MoreInfoModal';
 import KeynotesModal from './KeynotesFormModal';
-import ConsultingFormModal from './ConsultingFormModal';
+import ConsultingFormModal from './ContactForm/ConsultingFormModal';
 import WomanLeadership from './WomanLeadershipFormModal';
 import RoundtablePanelsFormModal from './RoundtablePanelsFormModal';
 

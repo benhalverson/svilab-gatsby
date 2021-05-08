@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Story from '../components/Story';
 import GotoMarket from '../components/GotoMarket';
 import HardwareProducts from '../components/HardwareProducts';
-import ExecutiveCoaching from '../components/ExecutiveCoaching';
+import ExecutiveCoaching from '../components/ExecutiveCoach/ExecutiveCoaching';
 import Layout from '../components/layout';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import Seo from '../components/seo';
