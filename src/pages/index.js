@@ -8,7 +8,7 @@ import { Link as GLink } from 'gatsby';
 import Layout from '../components/layout';
 import { CookieBanner } from '@palmabit/react-cookie-law';
 
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
 // import StartupLogos from '../components/startupLogos';
@@ -21,7 +21,7 @@ const IndexPage = () => (
   <Fragment>
     <Container>
       <Layout>
-        <SEO
+        <Seo
           title="Home"
           keywords={[`innovation`, `go-to-market strategy `, `investors`]}
         />

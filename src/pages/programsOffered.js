@@ -6,7 +6,7 @@ import HardwareProducts from '../components/HardwareProducts';
 import ExecutiveCoaching from '../components/ExecutiveCoaching';
 import Layout from '../components/layout';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 class ProgramsOffered extends Component {
   constructor(props) {
     super(props);
@@ -16,7 +16,7 @@ class ProgramsOffered extends Component {
     return (
       <Container>
         <Layout>
-          <SEO
+          <Seo
             title="Home"
             keywords={[`innovation`, `go-to-market strategy `, `investors`]}
           />

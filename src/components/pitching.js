@@ -107,10 +107,10 @@ class Pitching extends Component {
                 <CardBody>
                   <Row>
                     <Col>
-                      <img src={thumbnail1} className="thumb" />
+                      <img src={thumbnail1} className="thumb" alt="thumbnail" />
                     </Col>
                     <Col>
-                      <img src={thumbnail2} className="thumb" />
+                      <img src={thumbnail2} className="thumb" alt="thumbnail" />
                     </Col>
                   </Row>
                 </CardBody>
