@@ -11,11 +11,9 @@ import { CookieBanner } from '@palmabit/react-cookie-law';
 import Seo from '../components/seo';
 import Videobackground from './videobackground';
 import InnovationPrograms from '../components/innovationPrograms';
-// import StartupLogos from '../components/startupLogos';
 
-// import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 import Pitching from '../components/pitching';
-import Bar from '../components/bar';
+import Bar from '../components/Bar/bar';
 import Sales from '../components/sales';
 const IndexPage = () => (
   <Fragment>
