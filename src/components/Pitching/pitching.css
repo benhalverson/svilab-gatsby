@@ -10,17 +10,17 @@
 }
 
 .gray-bg-image {
-  background: url('../images/gray-startups-bg.png');
+  background: url('../../images/gray-startups-bg.png');
   background-size: cover;
 }
 
 .light-blue-bg-image {
-  background: url('../images/startups-blue-bg-temp2.png');
+  background: url('../../images/startups-blue-bg-temp2.png');
   background-size: cover;
 }
 
 .blue-bg-image {
-  background: url('../images/startups-blue-bg-temp.png');
+  background: url('../../images/startups-blue-bg-temp.png');
   background-size: cover;
 }
 

@@ -1,11 +1,11 @@
 import './innovationPrograms.css';
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
-import MoreInfoModal from './MoreInfoModal';
-import KeynotesModal from './KeynotesFormModal';
-import ConsultingFormModal from './ConsultingFormModal';
-import WomanLeadership from './WomanLeadershipFormModal';
-import RoundtablePanelsFormModal from './RoundtablePanelsFormModal';
+import MoreInfoModal from '../MoreinfoModal/MoreInfoModal';
+import KeynotesModal from '../KeynotesFormModal';
+import ConsultingFormModal from '../ContactForm/ConsultingFormModal';
+import WomanLeadership from '../WomanLeadershipFormModal';
+import RoundtablePanelsFormModal from '../RoundtablePanelsFormModal';
 
 export default class InnovationPrograms extends Component {
   render() {

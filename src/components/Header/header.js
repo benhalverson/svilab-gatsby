@@ -10,7 +10,7 @@ import {
   NavLink
 } from 'reactstrap';
 
-import logo from '../images/logo-left.png';
+import logo from '../../images/logo-left.png';
 
 class Header extends React.Component {
   props = this.props;

@@ -8,12 +8,12 @@ import {
   CardText,
   Button
 } from 'reactstrap';
-import steve from '../images/blue-steve.png';
-import thumbnail1 from '../images/video-thumb1.png';
-import thumbnail2 from '../images/video-thumb2.png';
-import free from '../images/free-red.png';
-import preso from '../images/presentation.png';
-import timer from '../images/timer.png';
+import steve from '../../images/blue-steve.png';
+import thumbnail1 from '../../images/video-thumb1.png';
+import thumbnail2 from '../../images/video-thumb2.png';
+import free from '../../images/free-red.png';
+import preso from '../../images/presentation.png';
+import timer from '../../images/timer.png';
 import './pitching.css';
 class Pitching extends Component {
   render() {
