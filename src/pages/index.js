@@ -5,14 +5,14 @@ import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-scroll';
 import { Link as GLink } from 'gatsby';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 import { CookieBanner } from '@palmabit/react-cookie-law';
 
 import Seo from '../components/seo';
 import Videobackground from './videobackground';
-import InnovationPrograms from '../components/innovationPrograms';
+import InnovationPrograms from '../components/InnovationPrograms/innovationPrograms';
 
-import Pitching from '../components/pitching';
+import Pitching from '../components/Pitching/pitching';
 import Bar from '../components/Bar/bar';
 import Sales from '../components/sales';
 const IndexPage = () => (

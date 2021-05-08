@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Container, CardBody, Card } from 'reactstrap';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 
 import Seo from '../components/seo';
 import HowToPitchModal from './HowToPitchModal';

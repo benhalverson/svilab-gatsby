@@ -14,7 +14,7 @@ import thumbnail2 from '../images/video-thumb2.png';
 import free from '../images/free-red.png';
 import preso from '../images/presentation.png';
 import timer from '../images/timer.png';
-import './pitching.css';
+import './Pitching/pitching.css';
 class Sales extends Component {
   render() {
     return (

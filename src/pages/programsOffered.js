@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 // import HowToPitch from '../components/HowToPitch';
 import Story from '../components/Story';
-import GotoMarket from '../components/GotoMarket';
-import HardwareProducts from '../components/HardwareProducts';
+import GotoMarket from '../components/GoToMarket/GotoMarket';
+import HardwareProducts from '../components/HardwareProducts/HardwareProducts';
 import ExecutiveCoaching from '../components/ExecutiveCoach/ExecutiveCoaching';
-import Layout from '../components/layout';
+import Layout from '../components/Layout/layout';
 import { Container, Row, Col, Jumbotron } from 'reactstrap';
 import Seo from '../components/seo';
 class ProgramsOffered extends Component {

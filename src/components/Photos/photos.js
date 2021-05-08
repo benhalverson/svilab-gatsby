@@ -1,7 +1,7 @@
-import korea1 from '../images/gallery/korea-pnp.png';
-import korea2 from '../images/gallery/korea-pnp2.png';
-import test from '../images/gallery/test.png';
-import vienna from '../images/gallery/vienna1.png';
+import korea1 from '../../images/gallery/korea-pnp.png';
+import korea2 from '../../images/gallery/korea-pnp2.png';
+import test from '../../images/gallery/test.png';
+import vienna from '../../images/gallery/vienna1.png';
 export const photos = [
   {
     src: korea1,
