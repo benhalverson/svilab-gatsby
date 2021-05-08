@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Container, CardBody, Card } from 'reactstrap';
 import Layout from '../components/layout';
 
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import HowToPitchModal from './HowToPitchModal';
 function HowToPitch() {
   const buttonLabelText = `Send more info`;
@@ -10,7 +10,7 @@ function HowToPitch() {
     <Fragment>
       <Container>
         <Layout>
-          <SEO
+          <Seo
             title="Home"
             keywords={[`innovation`, `go-to-market strategy `, `investors`]}
           />

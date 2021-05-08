@@ -1,12 +1,12 @@
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 // import './about.css';
 
 const About = () => {
   return (
     <Layout>
-      <SEO />
+      <Seo />
       <div className="row about-section">
         <div className="col">
           <div className="jumbotron">

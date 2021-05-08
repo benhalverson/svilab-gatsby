@@ -107,10 +107,10 @@ class Sales extends Component {
                 <CardBody>
                   <Row>
                     <Col>
-                      <img src={thumbnail1} className="thumb" />
+                      <img src={thumbnail1} className="thumb" alt="thumb 1"/>
                     </Col>
                     <Col>
-                      <img src={thumbnail2} className="thumb" />
+                      <img src={thumbnail2} className="thumb" alt="thumb 2"/>
                     </Col>
                   </Row>
                 </CardBody>
